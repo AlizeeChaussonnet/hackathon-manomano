@@ -1,16 +1,22 @@
 import React from "react";
+import ShowerScreen from "../assets/image/showerScreen.png";
+import Vasquesdb from "../assets/image/vasquesdb.png";
+import Robinet from "../assets/image/robinet.png"
+import Mirror from "../assets/image/miroir.png"
 
 const Shop = () => {
   return (
     <>
-      <div className="flex justify-center my-6">
+      <div className=" flex justify-center my-6">
         <img
-          className="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
-          src="https://images.unsplash.com/photo-1616486788371-62d930495c44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+          classNameName="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
+          src="https://i.pinimg.com/564x/0f/a5/d0/0fa5d0f5b41a4274bdc3a4ebf9962412.jpg"
         />
         <div className="flex flex-col w-full p-8 text-gray-800 bg-white shadow-lg pin-r pin-y md:w-4/5 lg:w-4/5">
-          <div className="flex-1">
-            <table className="w-full text-sm lg:text-base" cellspacing="0">
+          <div className="flex-1" >
+            <div className="relative">
+              <div className="overflow-auto h-80">
+            <table className="w-full text-sm lg:text-base " cellspacing="0"  >
               <thead>
                 <tr className="h-12 uppercase">
                   <th className="hidden md:table-cell"></th>
@@ -32,15 +38,15 @@ const Shop = () => {
                   <td className="hidden pb-4 md:table-cell">
                     <a href="#">
                       <img
-                        src="https://limg.app/i/Calm-Cormorant-Catholic-Pinball-Blaster-yM4oub.jpeg"
-                        className="w-20 rounded"
+                        src={ShowerScreen}
+                        className="w-20 h-16 rounded"
                         alt="Thumbnail"
                       />
                     </a>
                   </td>
                   <td>
                     <a href="#">
-                      <p className="mb-2 md:ml-4">Earphone</p>
+                      <p className="mb-2 md:ml-4">Shower screen</p>
                       <form action="" method="POST">
                         <button type="submit" className="text-gray-700 md:ml-4">
                           <small>(Remove item)</small>
@@ -53,7 +59,7 @@ const Shop = () => {
                       <div className="relative flex flex-row w-full h-8">
                         <input
                           type="number"
-                          value="2"
+                          value="1"
                           className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
                         />
                       </div>
@@ -61,12 +67,55 @@ const Shop = () => {
                   </td>
                   <td className="hidden text-right md:table-cell">
                     <span className="text-sm lg:text-base font-medium">
-                      10.00€
+                      120.00€
                     </span>
                   </td>
                   <td className="text-right">
                     <span className="text-sm lg:text-base font-medium">
-                      20.00€
+                      120.00€
+                    </span>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td className="hidden pb-4 md:table-cell">
+                    <a href="#">
+                      <img
+                        src={Robinet}
+                        className="w-20 h-16 rounded"
+                        alt="Thumbnail"
+                      />
+                    </a>
+                  </td>
+                  <td>
+                    <a href="#">
+                      <p className="mb-2 md:ml-4">Tap</p>
+                      <form action="" method="POST">
+                        <button type="submit" className="text-gray-700 md:ml-4">
+                          <small>(Remove item)</small>
+                        </button>
+                      </form>
+                    </a>
+                  </td>
+                  <td className="justify-center md:justify-end md:flex mt-6">
+                    <div className="w-20 h-10">
+                      <div className="relative flex flex-row w-full h-8">
+                        <input
+                          type="number"
+                          value="1"
+                          className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                        />
+                      </div>
+                    </div>
+                  </td>
+                  <td className="hidden text-right md:table-cell">
+                    <span className="text-sm lg:text-base font-medium">
+                    71,82€
+                    </span>
+                  </td>
+                  <td className="text-right">
+                    <span className="text-sm lg:text-base font-medium">
+                    71,82€
                     </span>
                   </td>
                 </tr>
@@ -74,14 +123,14 @@ const Shop = () => {
                   <td className="hidden pb-4 md:table-cell">
                     <a href="#">
                       <img
-                        src="https://limg.app/i/Cute-Constrictor-Super-Sexy-Military-Enforcer-W7mvBp.png"
-                        className="w-20 rounded"
+                        src={Mirror}
+                        className="w-20 rounded h-16"
                         alt="Thumbnail"
                       />
                     </a>
                   </td>
                   <td>
-                    <p className="mb-2 md:ml-4">Tesla Model 3</p>
+                    <p className="mb-2 md:ml-4">Mirror</p>
                     <form action="" method="POST">
                       <button type="submit" className="text-gray-700 md:ml-4">
                         <small>(Remove item)</small>
@@ -93,7 +142,7 @@ const Shop = () => {
                       <div className="relative flex flex-row w-full h-8">
                         <input
                           type="number"
-                          value="3"
+                          value="1"
                           className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
                         />
                       </div>
@@ -101,12 +150,12 @@ const Shop = () => {
                   </td>
                   <td className="hidden text-right md:table-cell">
                     <span className="text-sm lg:text-base font-medium">
-                      49,600.01€
+                    113,99 €
                     </span>
                   </td>
                   <td className="text-right">
                     <span className="text-sm lg:text-base font-medium">
-                      148,800.03€
+                    113,99 €
                     </span>
                   </td>
                 </tr>
@@ -114,14 +163,14 @@ const Shop = () => {
                   <td className="hidden pb-4 md:table-cell">
                     <a href="#">
                       <img
-                        src="https://limg.app/i/Successful-Spider-Biblical-Mutant---Total-War-lKoE7D.jpeg"
-                        className="w-20 rounded"
+                        src={Vasquesdb}
+                        className="w-20 h-16 rounded"
                         alt="Thumbnail"
                       />
                     </a>
                   </td>
                   <td>
-                    <p className="mb-2 md:ml-4">Bic 4 colour pen</p>
+                    <p className="mb-2 md:ml-4">Vasque ronde blanche</p>
                     <form action="" method="POST">
                       <button type="submit" className="text-gray-700 md:ml-4">
                         <small>(Remove item)</small>
@@ -133,7 +182,7 @@ const Shop = () => {
                       <div className="relative flex flex-row w-full h-8">
                         <input
                           type="number"
-                          value="5"
+                          value="1"
                           className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
                         />
                       </div>
@@ -141,14 +190,15 @@ const Shop = () => {
                   </td>
                   <td className="hidden text-right md:table-cell">
                     <span className="text-sm lg:text-base font-medium">
-                      1.50€
+                    69.00€
                     </span>
                   </td>
                   <td className="text-right">
                     <span className="text-sm lg:text-base font-medium">
-                      7.50€
+                    69.00€
                     </span>
                   </td>
+                  
                 </tr>
               </tbody>
             </table>

@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = 3001;
 
 // Permet de récupérer le body sur les requêtes POST / PUT
 app.use(express.json());
