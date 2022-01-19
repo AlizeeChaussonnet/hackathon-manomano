@@ -8,39 +8,26 @@ const Pinterest = () => {
           <div className="-mt-20 flex justify-end">
             <img
               className="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
-              src="https://images.unsplash.com/photo-1616486788371-62d930495c44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+              src="https://i.pinimg.com/564x/0f/a5/d0/0fa5d0f5b41a4274bdc3a4ebf9962412.jpg"
             />
           </div>
           <div className="flex justify-start">
             <img
               className="rounded-lg object-cover overflow-hidden"
-              src="https://images.unsplash.com/photo-1640020580603-e7beafd75d94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80"
+              src="https://i.pinimg.com/564x/21/4d/54/214d54a93915902494b9a6e4402ca9f8.jpg"
             />
           </div>
           <div className="-mt-64 flex justify-start">
             <img
               className="rounded-lg object-cover overflow-hidden"
-              src="https://images.unsplash.com/photo-1533557950217-8768f2ee7491?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+              src="https://i.pinimg.com/564x/76/4f/d8/764fd875f53b0cc4138173887ce91cb6.jpg"
             />
           </div>
           <div className="flex justify-start -mr-28 ml-28">
             <img
               className="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
-              src="https://images.unsplash.com/photo-1620371350502-999e9a7d80a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=670&q=80"
+              src="https://i.pinimg.com/564x/ce/f7/8c/cef78cd873a128825762568945a6b066.jpg"
             />
-          </div>
-          <div className="-translate-y-96 transform ml-28 -mr-28 p-16 shadow-xl rounded-xl overflow-hidden bg-white">
-            <div className="space-y-4"></div>
-            <div className="grid grid-cols-2 gap-6 border-t border-b border-gray-200 my-12 py-8">
-              <div></div>
-              <div></div>
-            </div>
-            <div className="-mt-64 flex justify-start">
-              <img
-                className="rounded-lg object-cover overflow-hidden"
-                src="https://images.unsplash.com/photo-1533557950217-8768f2ee7491?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-              />
-            </div>
           </div>
         </div>
       </section>
