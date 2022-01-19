@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .link-homepage {
+    color: #203d88;
+    @apply absolute top-6 right-72 flex flex-row font-semibold;
+  }
+}
