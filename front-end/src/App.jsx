@@ -1,12 +1,24 @@
 import { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import Pinterest from "./pages/Pinterest";
+import Shop from "./pages/Shop";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <h1 class="text-3xl font-bold underline bg-purple-700">Hello world!</h1>
+<>
+<Router>
+    <Routes>
+
+      <Route exact path ="/" element={<Pinterest />} />
+      <Route exact path ="/shop" element={<Shop />} />
+    </Routes>
+    </Router>
+
+    </>
   );
 }
 
