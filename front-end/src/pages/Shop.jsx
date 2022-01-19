@@ -1,8 +1,8 @@
 import React from "react";
-import ShowerScreen from "../../assets/images/showerScreen.png";
-import Vasquesdb from "../../assets/images/vasquesdb.png";
-import Robinet from "../../assets/images/robinet.png"
-import Mirror from "../../assets/images/miroir.png"
+import ShowerScreen from "../assets/image/showerScreen.png";
+import Vasquesdb from "../assets/image/vasquesdb.png";
+import Robinet from "../assets/image/robinet.png"
+import Mirror from "../assets/image/miroir.png"
 
 const Shop = () => {
   return (
