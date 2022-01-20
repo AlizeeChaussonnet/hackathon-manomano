@@ -9,7 +9,7 @@ export default function Homepage() {
       <img src={homepage} alt="" />
       <Link to="/bathroom">
         <div className="link-homepage">
-          <img className="w-full" src={icon}></img>
+          <img className="w-8" src={icon}></img>
           <p>Inspirations</p>
         </div>
       </Link>

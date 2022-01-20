@@ -1,17 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import ShowerScreen from "../assets/image/showerscreen.png";
 import Vasquesdb from "../assets/image/vasquesdb.png";
 import Robinet from "../assets/image/robinet.png";
 import Mirror from "../assets/image/miroir.png";
-import Navigation from "./Navbar";
+import Navigation from "../Components/Navbar";
+import Return from "../Components/Return";
 
 const ShopBathroom = () => {
   return (
     <>
       <Navigation />
+      <Link to="/bathroom">
+        <Return />
+      </Link>
       <div className=" flex justify-center my-6">
         <img
-          classNameName="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
+          className="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
           src="https://i.pinimg.com/564x/0f/a5/d0/0fa5d0f5b41a4274bdc3a4ebf9962412.jpg"
         />
         <div className="flex flex-col w-full p-8 text-gray-800 bg-white shadow-lg pin-r pin-y md:w-4/5 lg:w-4/5">
