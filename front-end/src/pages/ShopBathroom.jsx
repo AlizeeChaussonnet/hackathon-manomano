@@ -109,23 +109,24 @@ const ShopBathroom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <div className="flex items-center justify-between">
-                          <a href="#">
-                            <img
-                              src={Shower}
-                              className="w-20 h-16 rounded"
-                              alt="Thumbnail"
-                            />
-                          </a>
-                          <Button3D />
+                      <div className="flex items-center justify-between">
+
+                        <a href="https://www.manomano.fr/p/auralum-colonne-de-douche-noir-interrupteur--poigne-ensemble-de-douche-douchette--main-carr-colonne-douche-hydromassant-avec-2619cm-douche-de-tte-salle-de-bain-39376347">
+                          <img
+                            src={Shower}
+                            className="w-20 h-16 rounded"
+                            alt="Thumbnail"
+
+                          />
+                        </a>
+                        <Link to="/configurator">
+                            <Button3D />
+                          </Link>
                         </div>
                       </td>
                       <td>
-                        <a href="#">
-                          <p className="mb-2 md:ml-4">
-                            Shower column{" "}
-                            <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
-                          </p>
+                        <a href="https://www.manomano.fr/p/auralum-colonne-de-douche-noir-interrupteur--poigne-ensemble-de-douche-douchette--main-carr-colonne-douche-hydromassant-avec-2619cm-douche-de-tte-salle-de-bain-39376347">
+                          <p className="mb-2 md:ml-4">Shower column <Link to="/forum"><QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></Link></p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -430,14 +431,8 @@ const ShopBathroom = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">
-                            Shower screen
-                            <Link to="/forum">
-                              {" "}
-                              <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
-                            </Link>
-                          </p>
-
+                          <p className="mb-2 md:ml-4">Shower screen <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                          
                           <form action="" method="POST">
                             <button
                               type="submit"
