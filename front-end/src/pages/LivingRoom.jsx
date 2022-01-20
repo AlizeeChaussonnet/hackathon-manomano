@@ -7,7 +7,7 @@ const LivingRoom = () => {
   return (
     <div>
       <Navigation />
-      <Link to="/">
+      <Link to="/inspiration">
         <Return />
       </Link>
       <div>

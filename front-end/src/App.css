@@ -39,7 +39,7 @@
     @apply flex justify-center w-full px-10 py-3 mt-6 font-medium text-white uppercase rounded-full transition duration-500 ease-in-out shadow hover:bg-teal-200 text-[#0c193a];
   }
 
-  .test {
+  .largeurCol {
     width: 17%;
   }
 
