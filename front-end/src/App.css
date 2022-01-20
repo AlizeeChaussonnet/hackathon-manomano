@@ -42,4 +42,9 @@
   .largeurCol {
     width: 17%;
   }
+
+  .button-buy-now {
+    background-color: #5dbaad;
+    @apply py-5 px-36 rounded border-4 border-white transition duration-500 hover:bg-teal-200 ease-in-out text-[#0c193a] text-2xl;
+  }
 }

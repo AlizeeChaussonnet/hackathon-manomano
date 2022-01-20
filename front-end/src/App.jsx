@@ -13,6 +13,7 @@ import ShopKitchen from "./pages/ShopKitchen";
 import Forum from "./pages/Forum";
 import Inspiration from "./pages/Inspiration";
 import Configurator3D from "./pages/Configurator3D";
+import ShowerColumnPage from "./pages/ShowerColumnPage";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,6 +23,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Homepage />} />
+          <Route exact path="/showercolumn" element={<ShowerColumnPage />} />
           <Route exact path="/inspiration" element={<Inspiration />} />
           <Route exact path="/bathroom" element={<Bathroom />} />
           <Route exact path="/livingroom" element={<LivingRoom />} />
