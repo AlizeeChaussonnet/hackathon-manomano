@@ -6,7 +6,7 @@ export default function Homepage() {
   return (
     <div className="h-full">
       <img src={homepage} alt="" />
-      <Link to="/inspirations">
+      <Link to="/bathroom">
         <div className="link-homepage">
           <img className="h-4" src={icon}></img>
           <p>Inspirations</p>
