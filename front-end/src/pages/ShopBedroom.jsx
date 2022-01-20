@@ -493,8 +493,10 @@ const ShopBedroom = () => {
             <hr className="pb-6 mt-6" />
             <div className="my-4 mt-6 -mx-2 lg:flex">
               <div className="lg:px-2 lg:w-1/2">
-                <div className="p-4 bg-gray-100 rounded-full">
-                  <h1 className="ml-2 font-bold uppercase">Order Details</h1>
+                <div className="section-shop">
+                  <h1 className="ml-2 font-bold text-white uppercase">
+                    Order Details
+                  </h1>
                 </div>
                 <div className="p-4">
                   <p className="mb-6 italic">
@@ -527,7 +529,7 @@ const ShopBedroom = () => {
                   </div>
                 </div>
                 <a href="#">
-                  <button className="flex justify-center w-full px-10 py-3 mt-6 font-medium text-white uppercase bg-gray-800 rounded-full shadow item-center hover:bg-gray-700 focus:shadow-outline focus:outline-none">
+                  <button className="procceed-payment">
                     <svg
                       aria-hidden="true"
                       data-prefix="far"
@@ -546,8 +548,8 @@ const ShopBedroom = () => {
                 </a>
               </div>
               <div className="lg:px-2 lg:w-1/2">
-                <div className="p-4 bg-gray-100 rounded-full">
-                  <h1 className="ml-2 font-bold uppercase">
+                <div className="section-shop">
+                  <h1 className="ml-2 font-bold text-white uppercase">
                     Instruction for seller
                   </h1>
                 </div>
@@ -558,33 +560,30 @@ const ShopBedroom = () => {
                   </p>
                   <textarea className="w-full h-24 p-2 bg-gray-100 rounded"></textarea>
                 </div>
-                <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                  1 182.48€
-                  <div>
-                    <div className="p-4 bg-gray-100 rounded-full">
-                      <h1 className="ml-2 font-bold uppercase">
-                        Installation by a professional
-                      </h1>
-                    </div>
-                    <section className="container mx-auto ml-6 my-8">
-                      <label
-                        for="checkbox"
-                        className="relative flex-inline items-center isolate p-4 rounded-2xl"
-                      >
-                        <input
-                          id="checkbox"
-                          type="checkbox"
-                          className="relative peer z-20 text-purple-600 rounded-md focus:ring-0 mr-1"
-                        />
-                        <span className="relative z-20 w-full">
-                          {" "}
-                          I would like to entrust the installation to a
-                          professional
-                        </span>
-                        <div className="absolute inset-0 bg-white peer-checked:bg-teal-50 peer-checked:border-teal-300 z-10 border rounded-2xl"></div>
-                      </label>
-                    </section>
+                <div>
+                  <div className="section-shop">
+                    <h1 className="ml-2 font-bold text-white uppercase">
+                      Installation by a professional
+                    </h1>
                   </div>
+                  <section className="container mx-auto ml-6 my-8">
+                    <label
+                      for="checkbox"
+                      className="relative flex-inline items-center isolate p-4 rounded-2xl"
+                    >
+                      <input
+                        id="checkbox"
+                        type="checkbox"
+                        className="relative peer z-20 text-purple-600 rounded-md focus:ring-0 mr-1"
+                      />
+                      <span className="relative z-20 w-full">
+                        {" "}
+                        I would like to entrust the installation to a
+                        professional (50€)
+                      </span>
+                      <div className="absolute inset-0 bg-white peer-checked:bg-teal-50 peer-checked:border-teal-300 z-10 border rounded-2xl"></div>
+                    </label>
+                  </section>
                 </div>
               </div>
             </div>
