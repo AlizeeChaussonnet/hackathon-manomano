@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const LivingRoom = () => {
   return (
     <div>
@@ -18,12 +18,14 @@ const LivingRoom = () => {
                 src="https://i.pinimg.com/736x/88/97/8a/88978a7bc69023d7e6c704bb8bbf207e.jpg"
               />
             </div>
+            <Link to="/shoplivingroom">
             <div className="-mt-64 flex justify-start">
               <img
                 className="rounded-lg object-cover overflow-hidden"
                 src="https://i.pinimg.com/564x/98/7f/cc/987fcc2dc4c6092840b1a22f1d70de33.jpg"
               />
             </div>
+            </Link>
             <div className="flex justify-start -mr-28 ml-28">
               <img
                 className="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"

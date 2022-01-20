@@ -1,23 +1,27 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ShowerScreen from "../assets/image/showerscreen.png";
 import Vasquesdb from "../assets/image/vasquesdb.png";
 import Robinet from "../assets/image/robinet.png";
 import Mirror from "../assets/image/miroir.png";
+import Navigation from "../Components/Navbar";
+import Return from "../Components/Return";
 import Shower from "../assets/image/douche.png";
 import Candle from "../assets/image/bougie2.png";
 import CarrelageSol from "../assets/image/carrelagesol.png";
 import CarrelageMur from "../assets/image/carrelage2.png";
 import Lantern from "../assets/image/lanterne.png";
 import Carpet from "../assets/image/tapis.png";
-import Furniture from "../assets/image/meuble.png"
-import Navigation from "./Navbar";
+import Furniture from "../assets/image/meuble.png";
 
 const ShopBathroom = () => {
   return (
     <>
       <Navigation />
+      <Link to="/bathroom">
+        <Return />
+      </Link>
       <div className=" flex justify-center my-6">
-        *
         <div>
           <img
             classNameName="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
@@ -46,7 +50,7 @@ const ShopBathroom = () => {
                     </tr>
                   </thead>
                   <tbody>
-                  <tr>
+                    <tr>
                       <td className="hidden pb-4 md:table-cell">
                         <a href="#">
                           <img
@@ -82,12 +86,12 @@ const ShopBathroom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                        379.00€
+                          379.00€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                        379.00€
+                          379.00€
                         </span>
                       </td>
                     </tr>
@@ -127,12 +131,12 @@ const ShopBathroom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          101,98€
+                          101.98€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          101,98€
+                          101.98€
                         </span>
                       </td>
                     </tr>
@@ -172,7 +176,7 @@ const ShopBathroom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          47,40€
+                          47.40€
                         </span>
                       </td>
                       <td className="text-right">
@@ -217,12 +221,12 @@ const ShopBathroom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          8,99€
+                          8.99€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          17,98€
+                          17.98€
                         </span>
                       </td>
                     </tr>
@@ -262,12 +266,12 @@ const ShopBathroom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                        47,30€
+                          47.30€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                        567,6€
+                          567.60€
                         </span>
                       </td>
                     </tr>
@@ -307,12 +311,12 @@ const ShopBathroom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          43,99€
+                          43.99€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          87,98€
+                          87.98€
                         </span>
                       </td>
                     </tr>
@@ -352,23 +356,25 @@ const ShopBathroom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                        39.00€
+                          39.00€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                        39.00€
+                          39.00€
                         </span>
                       </td>
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
                         <a href="#">
-                          <img
-                            src={ShowerScreen}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
+                          <Link to="/forum">
+                            <img
+                              src={ShowerScreen}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </Link>
                         </a>
                       </td>
                       <td>
@@ -442,12 +448,12 @@ const ShopBathroom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          71,82€
+                          71.82€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          71,82€
+                          71.82€
                         </span>
                       </td>
                     </tr>
@@ -485,12 +491,12 @@ const ShopBathroom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          113,99 €
+                          113.99 €
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          113,99 €
+                          113.99 €
                         </span>
                       </td>
                     </tr>
@@ -559,16 +565,16 @@ const ShopBathroom = () => {
                     Subtotal
                   </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                  2516,35 €
+                    2 516.35€
                   </div>
                 </div>
               </div>
               <div className="flex justify-between pt-4 border-b">
                 <div className="lg:px-4 lg:py-2 m-2 text-lg lg:text-xl font-bold text-center text-gray-800">
-                  Tax
+                  Delivery
                 </div>
                 <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                503,27 €
+                  38.99€
                 </div>
               </div>
               <div className="flex justify-between pt-4 border-b">
@@ -576,7 +582,7 @@ const ShopBathroom = () => {
                   Total
                 </div>
                 <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                3019,62 €
+                  2 555.34€
                 </div>
               </div>
               <a href="#">
