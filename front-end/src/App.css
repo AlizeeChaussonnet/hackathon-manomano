@@ -29,6 +29,16 @@
     @apply font-semibold text-xl;
   }
 
+  .section-shop {
+    background-color: #0c193a;
+    @apply p-4 rounded-full;
+  }
+
+  .procceed-payment {
+    background-color: #5dbaad;
+    @apply flex justify-center w-full px-10 py-3 mt-6 font-medium text-white uppercase rounded-full transition duration-500 ease-in-out shadow hover:bg-teal-200 text-[#0c193a];
+  }
+  
   .test {
     width: 17%;
   }
