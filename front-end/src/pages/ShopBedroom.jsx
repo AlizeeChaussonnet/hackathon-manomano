@@ -47,7 +47,7 @@ const ShopBedroom = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Shower screen</p>
+                          <p className="mb-2 md:ml-4">Shower screen<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -93,7 +93,7 @@ const ShopBedroom = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Tap</p>
+                          <p className="mb-2 md:ml-4">Tap<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -137,7 +137,7 @@ const ShopBedroom = () => {
                         </a>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">Mirror</p>
+                        <p className="mb-2 md:ml-4">Mirror<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -180,7 +180,7 @@ const ShopBedroom = () => {
                         </a>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">White round basin</p>
+                        <p className="mb-2 md:ml-4">White round basin<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                         <form action="" method="POST">
                           <button
                             type="submit"

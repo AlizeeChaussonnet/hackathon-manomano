@@ -14,6 +14,7 @@ import Lantern from "../assets/image/lanterne.png";
 import Carpet from "../assets/image/tapis.png";
 import Furniture from "../assets/image/meuble.png";
 import "../App.css";
+import { QuestionMarkCircleIcon } from "@heroicons/react/solid";
 
 const ShopBathroom = () => {
   return (
@@ -63,7 +64,7 @@ const ShopBathroom = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Oak furniture</p>
+                          <p className="mb-2 md:ml-4">Oak furniture<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -108,7 +109,7 @@ const ShopBathroom = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Shower column</p>
+                          <p className="mb-2 md:ml-4">Shower column <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -153,7 +154,7 @@ const ShopBathroom = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Floor tile (40cmx40cm)</p>
+                          <p className="mb-2 md:ml-4">Floor tile (40cmx40cm)<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -198,7 +199,7 @@ const ShopBathroom = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Candle</p>
+                          <p className="mb-2 md:ml-4">Candle<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -243,7 +244,7 @@ const ShopBathroom = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Wall tile</p>
+                          <p className="mb-2 md:ml-4">Wall tile<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -288,7 +289,7 @@ const ShopBathroom = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Lantern</p>
+                          <p className="mb-2 md:ml-4">Lantern<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -333,7 +334,7 @@ const ShopBathroom = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Carpet</p>
+                          <p className="mb-2 md:ml-4">Carpet<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -380,7 +381,8 @@ const ShopBathroom = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Shower screen</p>
+                          <p className="mb-2 md:ml-4">Shower screen<Link to="/forum"> <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></Link></p>
+                          
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -425,7 +427,7 @@ const ShopBathroom = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Tap</p>
+                          <p className="mb-2 md:ml-4">Tap<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -469,7 +471,7 @@ const ShopBathroom = () => {
                         </a>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">Mirror</p>
+                        <p className="mb-2 md:ml-4">Mirror<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -512,7 +514,7 @@ const ShopBathroom = () => {
                         </a>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">White round basin</p>
+                        <p className="mb-2 md:ml-4">White round basin<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                         <form action="" method="POST">
                           <button
                             type="submit"
