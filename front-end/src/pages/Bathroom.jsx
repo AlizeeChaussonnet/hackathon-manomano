@@ -1,11 +1,18 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom'
+
 import { Link } from "react-router-dom";
-import Navigation from "./Navbar";
+import Navigation from "../Components/Navbar";
+import Return from "../Components/Return";
 
 const Bathroom = () => {
+  const navigate = useNavigate()
   return (
     <div>
       <Navigation />
+      <Link to="/">
+        <Return />
+      </Link>
       <section className="py-48 bg-white flex flex-col justify-center">
         <div className="grid grid-cols-2 gap-10 max-w-6xl mx-auto">
           <Link to="/shopbathroom">
