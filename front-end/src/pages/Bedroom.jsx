@@ -3,9 +3,11 @@ import Navigation from "../Components/Navbar";
 import Return from "../Components/Return";
 import { Link } from "react-router-dom";
 import StackGrid, { transitions } from "react-stack-grid";
+import { useNavigate } from "react-router";
 
 const Bedroom = () => {
   const { scaleDown } = transitions;
+  const navigate = useNavigate()
 
   return (
     <div>
@@ -16,17 +18,14 @@ const Bedroom = () => {
       <div className="mt-8">
         <StackGrid
           columnWidth={400}
-          appear={scaleDown.appear}
-          appeared={scaleDown.appeared}
-          enter={scaleDown.enter}
-          entered={scaleDown.entered}
-          leaved={scaleDown.leaved}
+        
         >
           <div className="overflow-hidden rounded-3xl" key="key1" id="zoomIn">
             {" "}
             <img
               className="object-cover rounded-3xl overflow-hidden"
               src="https://i.pinimg.com/564x/e4/bc/07/e4bc07913934b6df55a54c469969d9bb.jpg"
+              onClick={() => (navigate("/shopbedroom"))}
             />
           </div>
           <div className="overflow-hidden rounded-3xl" key="key2" id="zoomIn">
