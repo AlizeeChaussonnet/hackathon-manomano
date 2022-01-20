@@ -241,7 +241,7 @@ const ShopBedroom = () => {
                     Tax
                   </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                    2,976.55€
+                    374,81 €
                   </div>
                 </div>
                 <div className="flex justify-between pt-4 border-b">
