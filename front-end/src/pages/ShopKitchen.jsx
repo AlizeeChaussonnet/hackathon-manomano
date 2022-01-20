@@ -3,11 +3,17 @@ import ShowerScreen from "../assets/image/showerscreen.png";
 import Vasquesdb from "../assets/image/vasquesdb.png";
 import Robinet from "../assets/image/robinet.png";
 import Mirror from "../assets/image/miroir.png";
+import Return from "../Components/Return";
+import { Link } from "react-router-dom";
 import "../App.css";
 
 const ShopKitchen = () => {
   return (
     <>
+    <Navigation />
+    <Link to="/kitchen">
+        <Return />
+      </Link>
       <div className=" flex justify-center my-6">
         <img
           className="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"

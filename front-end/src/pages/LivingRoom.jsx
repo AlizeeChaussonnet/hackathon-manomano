@@ -1,8 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Return from "../Components/Return";
+import Navigation from "../Components/Navbar";
+
 const LivingRoom = () => {
   return (
     <div>
+      <Navigation />
+      <Link to="/">
+        <Return />
+      </Link>
       <div>
         <section className="py-48 bg-white flex flex-col justify-center">
           <div className="grid grid-cols-2 gap-10 max-w-6xl mx-auto">
