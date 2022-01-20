@@ -1,12 +1,16 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom'
+
 
 const Bathroom = () => {
+  const navigate = useNavigate()
   return (
     <div>
       <section className="py-48 bg-white flex flex-col justify-center">
         <div className="grid grid-cols-2 gap-10 max-w-6xl mx-auto">
           <div className="-mt-20 flex justify-end">
             <img
+              onClick={() => (navigate('/shopbathroom'))}
               className="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
               src="https://i.pinimg.com/564x/0f/a5/d0/0fa5d0f5b41a4274bdc3a4ebf9962412.jpg"
             />
