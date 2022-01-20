@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ShowerScreen from "../assets/image/showerscreen.png";
 import Vasquesdb from "../assets/image/vasquesdb.png";
 import Robinet from "../assets/image/robinet.png";
@@ -14,6 +15,7 @@ const ShopBathroom = () => {
           classNameName="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
           src="https://i.pinimg.com/564x/0f/a5/d0/0fa5d0f5b41a4274bdc3a4ebf9962412.jpg"
         />
+
         <div className="flex flex-col w-full p-8 text-gray-800 bg-white shadow-lg pin-r pin-y md:w-4/5 lg:w-4/5">
           <div className="flex-1">
             <div className="relative">
@@ -39,11 +41,13 @@ const ShopBathroom = () => {
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
                         <a href="#">
-                          <img
-                            src={ShowerScreen}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
+                          <Link to="/forum">
+                            <img
+                              src={ShowerScreen}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </Link>
                         </a>
                       </td>
                       <td>
