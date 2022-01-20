@@ -9,6 +9,7 @@ import Kitchen from "./pages/Kitchen";
 import Bedroom from "./pages/Bedroom";
 import ShopBedroom from "./pages/ShopBedroom";
 import ShopLivingRoom from "./pages/ShopLivingRoom";
+import ShopKitchen from "./pages/ShopKitchen"
 
 function App() {
   const [count, setCount] = useState(0);

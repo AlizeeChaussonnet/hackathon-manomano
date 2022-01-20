@@ -1,4 +1,8 @@
 import React from 'react';
+import ShowerScreen from "../assets/image/showerscreen.png";
+import Vasquesdb from "../assets/image/vasquesdb.png";
+import Robinet from "../assets/image/robinet.png"
+import Mirror from "../assets/image/miroir.png"
 
 const ShopKitchen = () => {
     return (
