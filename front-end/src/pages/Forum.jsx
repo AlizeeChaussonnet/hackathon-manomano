@@ -8,7 +8,7 @@ export default function Forum() {
           <div>
             <h2 className="h2-forum">Products installation forum</h2>
             <span className="bg-gray-300 rounded-full px-4">
-              #Shower screen
+              #Shower column
             </span>
           </div>
           <div className="flex items-center justify-between">
@@ -75,14 +75,14 @@ export default function Forum() {
                         </div>
                         <div className="ml-3">
                           <p className="text-gray-900 whitespace-no-wrap">
-                            Issue with shower screen installation
+                            Issue with shower column installation
                           </p>
                         </div>
                       </div>
                     </td>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <p className="text-gray-900 whitespace-no-wrap bg-gray-300 rounded-full px-4 w-auto">
-                        Shower Screen / Floor Tile
+                        Shower column / Floor Tile
                       </p>
                     </td>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
@@ -155,14 +155,14 @@ export default function Forum() {
                         </div>
                         <div className="ml-3">
                           <p className="text-gray-900 whitespace-no-wrap">
-                            Caulk the Shower screen
+                            Caulk the Shower column
                           </p>
                         </div>
                       </div>
                     </td>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <p className="text-gray-900 whitespace-no-wrap bg-gray-300 rounded-full px-4">
-                        Shower screen / Caulk
+                        Shower column / Caulk
                       </p>
                     </td>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
