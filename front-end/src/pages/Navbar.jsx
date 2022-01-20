@@ -1,5 +1,5 @@
 import React from "react";
-import Navigation from "../assets/image/NavBar.png";
+import Navigation from "../assets/image/Navbar.png";
 
 export default function Navbar() {
   return (

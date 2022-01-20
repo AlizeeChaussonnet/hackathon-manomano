@@ -1,208 +1,219 @@
-import React from 'react';
+import React from "react";
 import ShowerScreen from "../assets/image/showerscreen.png";
 import Vasquesdb from "../assets/image/vasquesdb.png";
-import Robinet from "../assets/image/robinet.png"
-import Mirror from "../assets/image/miroir.png"
+import Robinet from "../assets/image/robinet.png";
+import Mirror from "../assets/image/miroir.png";
 
 const ShopKitchen = () => {
-    return (
-        <>
-            <div className=" flex justify-center my-6">
+  return (
+    <>
+      <div className=" flex justify-center my-6">
         <img
           classNameName="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
           src="https://i.pinimg.com/564x/0f/a5/d0/0fa5d0f5b41a4274bdc3a4ebf9962412.jpg"
         />
         <div className="flex flex-col w-full p-8 text-gray-800 bg-white shadow-lg pin-r pin-y md:w-4/5 lg:w-4/5">
-          <div className="flex-1" >
+          <div className="flex-1">
             <div className="relative">
               <div className="overflow-auto h-80">
-            <table className="w-full text-sm lg:text-base " cellspacing="0"  >
-              <thead>
-                <tr className="h-12 uppercase">
-                  <th className="hidden md:table-cell"></th>
-                  <th className="text-left">Product</th>
-                  <th className="lg:text-right text-left pl-5 lg:pl-0">
-                    <span className="lg:hidden" title="Quantity">
-                      Qtd
-                    </span>
-                    <span className="hidden lg:inline">Quantity</span>
-                  </th>
-                  <th className="hidden text-right md:table-cell">
-                    Unit price
-                  </th>
-                  <th className="text-right">Total price</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td className="hidden pb-4 md:table-cell">
-                    <a href="#">
-                      <img
-                        src={ShowerScreen}
-                        className="w-20 h-16 rounded"
-                        alt="Thumbnail"
-                      />
-                    </a>
-                  </td>
-                  <td>
-                    <a href="#">
-                      <p className="mb-2 md:ml-4">Shower screen</p>
-                      <form action="" method="POST">
-                        <button type="submit" className="text-gray-700 md:ml-4">
-                          <small>(Remove item)</small>
-                        </button>
-                      </form>
-                    </a>
-                  </td>
-                  <td className="justify-center md:justify-end md:flex mt-6">
-                    <div className="w-20 h-10">
-                      <div className="relative flex flex-row w-full h-8">
-                        <input
-                          type="number"
-                          value="1"
-                          className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
-                        />
-                      </div>
-                    </div>
-                  </td>
-                  <td className="hidden text-right md:table-cell">
-                    <span className="text-sm lg:text-base font-medium">
-                      120.00€
-                    </span>
-                  </td>
-                  <td className="text-right">
-                    <span className="text-sm lg:text-base font-medium">
-                      120.00€
-                    </span>
-                  </td>
-                </tr>
-                
-                <tr>
-                  <td className="hidden pb-4 md:table-cell">
-                    <a href="#">
-                      <img
-                        src={Robinet}
-                        className="w-20 h-16 rounded"
-                        alt="Thumbnail"
-                      />
-                    </a>
-                  </td>
-                  <td>
-                    <a href="#">
-                      <p className="mb-2 md:ml-4">Tap</p>
-                      <form action="" method="POST">
-                        <button type="submit" className="text-gray-700 md:ml-4">
-                          <small>(Remove item)</small>
-                        </button>
-                      </form>
-                    </a>
-                  </td>
-                  <td className="justify-center md:justify-end md:flex mt-6">
-                    <div className="w-20 h-10">
-                      <div className="relative flex flex-row w-full h-8">
-                        <input
-                          type="number"
-                          value="1"
-                          className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
-                        />
-                      </div>
-                    </div>
-                  </td>
-                  <td className="hidden text-right md:table-cell">
-                    <span className="text-sm lg:text-base font-medium">
-                    71,82€
-                    </span>
-                  </td>
-                  <td className="text-right">
-                    <span className="text-sm lg:text-base font-medium">
-                    71,82€
-                    </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="hidden pb-4 md:table-cell">
-                    <a href="#">
-                      <img
-                        src={Mirror}
-                        className="w-20 rounded h-16"
-                        alt="Thumbnail"
-                      />
-                    </a>
-                  </td>
-                  <td>
-                    <p className="mb-2 md:ml-4">Mirror</p>
-                    <form action="" method="POST">
-                      <button type="submit" className="text-gray-700 md:ml-4">
-                        <small>(Remove item)</small>
-                      </button>
-                    </form>
-                  </td>
-                  <td className="justify-center md:justify-end md:flex md:mt-4">
-                    <div className="w-20 h-10">
-                      <div className="relative flex flex-row w-full h-8">
-                        <input
-                          type="number"
-                          value="1"
-                          className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
-                        />
-                      </div>
-                    </div>
-                  </td>
-                  <td className="hidden text-right md:table-cell">
-                    <span className="text-sm lg:text-base font-medium">
-                    113,99 €
-                    </span>
-                  </td>
-                  <td className="text-right">
-                    <span className="text-sm lg:text-base font-medium">
-                    113,99 €
-                    </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="hidden pb-4 md:table-cell">
-                    <a href="#">
-                      <img
-                        src={Vasquesdb}
-                        className="w-20 h-16 rounded"
-                        alt="Thumbnail"
-                      />
-                    </a>
-                  </td>
-                  <td>
-                    <p className="mb-2 md:ml-4">White round basin</p>
-                    <form action="" method="POST">
-                      <button type="submit" className="text-gray-700 md:ml-4">
-                        <small>(Remove item)</small>
-                      </button>
-                    </form>
-                  </td>
-                  <td className="justify-center md:justify-end md:flex md:mt-8">
-                    <div className="w-20 h-10">
-                      <div className="relative flex flex-row w-full h-8">
-                        <input
-                          type="number"
-                          value="1"
-                          className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
-                        />
-                      </div>
-                    </div>
-                  </td>
-                  <td className="hidden text-right md:table-cell">
-                    <span className="text-sm lg:text-base font-medium">
-                    69.00€
-                    </span>
-                  </td>
-                  <td className="text-right">
-                    <span className="text-sm lg:text-base font-medium">
-                    69.00€
-                    </span>
-                  </td>
-                  
-                </tr>
-              </tbody>
-            </table>
-            </div>
+                <table className="w-full text-sm lg:text-base " cellspacing="0">
+                  <thead>
+                    <tr className="h-12 uppercase">
+                      <th className="hidden md:table-cell"></th>
+                      <th className="text-left">Product</th>
+                      <th className="lg:text-right text-left pl-5 lg:pl-0">
+                        <span className="lg:hidden" title="Quantity">
+                          Qtd
+                        </span>
+                        <span className="hidden lg:inline">Quantity</span>
+                      </th>
+                      <th className="hidden text-right md:table-cell">
+                        Unit price
+                      </th>
+                      <th className="text-right">Total price</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <a href="#">
+                          <img
+                            src={ShowerScreen}
+                            className="w-20 h-16 rounded"
+                            alt="Thumbnail"
+                          />
+                        </a>
+                      </td>
+                      <td>
+                        <a href="#">
+                          <p className="mb-2 md:ml-4">Shower screen</p>
+                          <form action="" method="POST">
+                            <button
+                              type="submit"
+                              className="text-gray-700 md:ml-4"
+                            >
+                              <small>(Remove item)</small>
+                            </button>
+                          </form>
+                        </a>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex mt-6">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="1"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+                          120.00€
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          120.00€
+                        </span>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <a href="#">
+                          <img
+                            src={Robinet}
+                            className="w-20 h-16 rounded"
+                            alt="Thumbnail"
+                          />
+                        </a>
+                      </td>
+                      <td>
+                        <a href="#">
+                          <p className="mb-2 md:ml-4">Tap</p>
+                          <form action="" method="POST">
+                            <button
+                              type="submit"
+                              className="text-gray-700 md:ml-4"
+                            >
+                              <small>(Remove item)</small>
+                            </button>
+                          </form>
+                        </a>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex mt-6">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="1"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+                          71,82€
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          71,82€
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <a href="#">
+                          <img
+                            src={Mirror}
+                            className="w-20 rounded h-16"
+                            alt="Thumbnail"
+                          />
+                        </a>
+                      </td>
+                      <td>
+                        <p className="mb-2 md:ml-4">Mirror</p>
+                        <form action="" method="POST">
+                          <button
+                            type="submit"
+                            className="text-gray-700 md:ml-4"
+                          >
+                            <small>(Remove item)</small>
+                          </button>
+                        </form>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex md:mt-4">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="1"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+                          113,99 €
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          113,99 €
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <a href="#">
+                          <img
+                            src={Vasquesdb}
+                            className="w-20 h-16 rounded"
+                            alt="Thumbnail"
+                          />
+                        </a>
+                      </td>
+                      <td>
+                        <p className="mb-2 md:ml-4">White round basin</p>
+                        <form action="" method="POST">
+                          <button
+                            type="submit"
+                            className="text-gray-700 md:ml-4"
+                          >
+                            <small>(Remove item)</small>
+                          </button>
+                        </form>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex md:mt-8">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="1"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+                          69.00€
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          69.00€
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
             <hr className="pb-6 mt-6" />
             <div className="my-4 mt-6 -mx-2 lg:flex">
@@ -222,7 +233,7 @@ const ShopKitchen = () => {
                     Subtotal
                   </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                  374,81 €
+                    374,81 €
                   </div>
                 </div>
               </div>
@@ -231,7 +242,7 @@ const ShopKitchen = () => {
                   Tax
                 </div>
                 <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                74,962 €
+                  74,962 €
                 </div>
               </div>
               <div className="flex justify-between pt-4 border-b">
@@ -239,7 +250,7 @@ const ShopKitchen = () => {
                   Total
                 </div>
                 <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                449,772 €
+                  449,772 €
                 </div>
               </div>
               <a href="#">
@@ -261,11 +272,25 @@ const ShopKitchen = () => {
                 </button>
               </a>
             </div>
+            <div className="lg:px-2 lg:w-1/2">
+              <div className="p-4 bg-gray-100 rounded-full">
+                <h1 className="ml-2 font-bold uppercase">
+                  Instruction for seller
+                </h1>
+              </div>
+              <div className="p-4">
+                <p className="mb-4 italic">
+                  If you have some information for the seller you can leave them
+                  in the box below
+                </p>
+                <textarea className="w-full h-24 p-2 bg-gray-100 rounded"></textarea>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-        </>
-    );
+    </>
+  );
 };
 
 export default ShopKitchen;
