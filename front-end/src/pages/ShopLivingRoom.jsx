@@ -1,5 +1,4 @@
 import React from "react";
-
 import MiroirSalon from "../assets/image/miroirsalon.png";
 import Fauteuil from "../assets/image/fauteuil.png";
 import Cheminee from "../assets/image/cheminee.png";
@@ -7,7 +6,7 @@ import Couch from "../assets/image/canape.png";
 import Tablebasse from "../assets/image/tablebasse.png";
 import ParquetSalon from "../assets/image/parquetsalon.png";
 import Peinture from "../assets/image/peinture.png";
-import Navigation from "./Navbar";
+import Navigation from "../Components/Navbar";
 const ShopLivingRoom = () => {
   return (
     <>
@@ -141,6 +140,7 @@ const ShopLivingRoom = () => {
                         </a>
                       </td>
                       <td>
+
                         <p className="mb-2 md:ml-4">Armchair</p>
                         <form action="" method="POST">
                           <button
@@ -227,6 +227,7 @@ const ShopLivingRoom = () => {
                         </a>
                       </td>
                       <td>
+
                         <p className="mb-2 md:ml-4">Mirror</p>
                         <form action="" method="POST">
                           <button
@@ -250,6 +251,7 @@ const ShopLivingRoom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
+
                           75.98€
                         </span>
                       </td>
@@ -294,6 +296,8 @@ const ShopLivingRoom = () => {
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
                           24.98€
+
+
                         </span>
                       </td>
                       <td className="text-right">
