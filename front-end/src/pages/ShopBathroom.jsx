@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import ShowerScreen from "../assets/image/showerscreen.png";
 import Vasquesdb from "../assets/image/vasquesdb.png";
 import Robinet from "../assets/image/robinet.png";
@@ -372,11 +371,13 @@ const ShopBathroom = () => {
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
                         <a href="#">
-                          <img
-                            src={ShowerScreen}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
+                          <Link to="/forum">
+                            <img
+                              src={ShowerScreen}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </Link>
                         </a>
                       </td>
                       <td>
