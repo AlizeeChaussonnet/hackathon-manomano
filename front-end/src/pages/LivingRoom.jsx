@@ -27,7 +27,7 @@ const LivingRoom = () => {
             <div className="flex justify-start -mr-28 ml-28">
               <img
                 className="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
-                src="https://images.unsplash.com/photo-1620371350502-999e9a7d80a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=670&q=80"
+                src="https://i.pinimg.com/564x/7e/b9/b1/7eb9b146d2c05bd3cb65e312e21fee3a.jpg"
               />
             </div>
           </div>

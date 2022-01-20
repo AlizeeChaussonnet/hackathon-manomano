@@ -1,6 +1,6 @@
 import React from "react";
 
-const Pinterest = () => {
+const Bathroom = () => {
   return (
     <div>
       <section className="py-48 bg-white flex flex-col justify-center">
@@ -35,4 +35,4 @@ const Pinterest = () => {
   );
 };
 
-export default Pinterest;
+export default Bathroom;

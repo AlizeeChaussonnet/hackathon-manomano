@@ -1,12 +1,9 @@
-import React from "react";
-import ShowerScreen from "../assets/image/showerScreen.png";
-import Vasquesdb from "../assets/image/vasquesdb.png";
-import Robinet from "../assets/image/robinet.png"
-import Mirror from "../assets/image/miroir.png"
+import React from 'react';
 
-const Shop = () => {
-  return (
-    <>
+const ShopBedroom = () => {
+    return (
+        <>
+        
       <div className=" flex justify-center my-6">
         <img
           classNameName="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
@@ -170,7 +167,7 @@ const Shop = () => {
                     </a>
                   </td>
                   <td>
-                    <p className="mb-2 md:ml-4">Vasque ronde blanche</p>
+                    <p className="mb-2 md:ml-4">White round basin</p>
                     <form action="" method="POST">
                       <button type="submit" className="text-gray-700 md:ml-4">
                         <small>(Remove item)</small>
@@ -265,7 +262,8 @@ const Shop = () => {
         </div>
       </div>
     </>
-  );
+        
+    );
 };
 
-export default Shop;
+export default ShopBedroom;
