@@ -14,7 +14,7 @@ const Inspiration = () => {
         <Return />
       </Link>
       <Selector />
-      <div>
+      <div className="mt-8">
         <StackGrid
           columnWidth={400}
           appear={scaleDown.appear}
