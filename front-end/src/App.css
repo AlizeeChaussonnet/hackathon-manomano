@@ -7,4 +7,27 @@
     color: #203d88;
     @apply absolute top-6 right-72 flex flex-row font-semibold;
   }
+  
+  div#zoomIn img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .6s ease-in-out;
+    transition: 0.6s ease-in-out;
+  }
+  div#zoomIn:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  
+
+  .button-forum {
+    background-color: #203d88;
+    @apply px-4 py-2 rounded-md text-white font-semibold tracking-wide cursor-pointer;
+  }
+
+  .h2-forum {
+    color: #203d88;
+    @apply font-semibold text-xl;
+  }
 }
+

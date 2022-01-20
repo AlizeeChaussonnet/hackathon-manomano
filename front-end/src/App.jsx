@@ -9,7 +9,8 @@ import Kitchen from "./pages/Kitchen";
 import Bedroom from "./pages/Bedroom";
 import ShopBedroom from "./pages/ShopBedroom";
 import ShopLivingRoom from "./pages/ShopLivingRoom";
-import ShopKitchen from "./pages/ShopKitchen"
+import ShopKitchen from "./pages/ShopKitchen";
+import Forum from "./pages/Forum";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/shopbedroom" element={<ShopBedroom />} />
           <Route exact path="/shopkitchen" element={<ShopKitchen />} />
           <Route exact path="/shoplivingroom" element={<ShopLivingRoom />} />
+          <Route exact path="/forum" element={<Forum />} />
         </Routes>
       </Router>
     </>
