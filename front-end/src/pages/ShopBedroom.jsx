@@ -12,6 +12,7 @@ import Plumes from "../assets/image/plumes.png"
 import Table from "../assets/image/table.png"
 import Peinture from "../assets/image/peinture.png"
 import Parquet from "../assets/image/parquetbed.png"
+import { QuestionMarkCircleIcon } from "@heroicons/react/solid";
 
 const ShopBedroom = () => {
   return (
@@ -455,7 +456,7 @@ const ShopBedroom = () => {
             <hr className="pb-6 mt-6" />
             <div className="my-4 mt-6 -mx-2 lg:flex">
               <div className="lg:px-2 lg:w-1/2">
-                <div className="order">
+                <div className="p-4 bg-gray-100 rounded-full">
                   <h1 className="ml-2 font-bold uppercase">Order Details</h1>
                 </div>
                 <div className="p-4">
@@ -468,25 +469,25 @@ const ShopBedroom = () => {
                       Subtotal
                     </div>
                     <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                      148,827.53€
+                      1 182.48€
                     </div>
                   </div>
                 </div>
                 <div className="flex justify-between pt-4 border-b">
                   <div className="lg:px-4 lg:py-2 m-2 text-lg lg:text-xl font-bold text-center text-gray-800">
-                    Tax
+                    Delivery
                   </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                    1 152.48€
+                    30€
                   </div>
                 </div>
-              </div>
-              <div className="flex justify-between pt-4 border-b">
-                <div className="lg:px-4 lg:py-2 m-2 text-lg lg:text-xl font-bold text-center text-gray-800">
-                  Delivery
-                </div>
-                <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                  30€
+                <div className="flex justify-between pt-4 border-b">
+                  <div className="lg:px-4 lg:py-2 m-2 text-lg lg:text-xl font-bold text-center text-gray-800">
+                    Total
+                  </div>
+                  <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
+                    1 182.48€
+                  </div>
                 </div>
                 <a href="#">
                   <button className="flex justify-center w-full px-10 py-3 mt-6 font-medium text-white uppercase bg-gray-800 rounded-full shadow item-center hover:bg-gray-700 focus:shadow-outline focus:outline-none">
