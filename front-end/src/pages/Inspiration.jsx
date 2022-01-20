@@ -2,6 +2,8 @@ import React from "react";
 import Navigation from "../Components/Navbar";
 import Return from "../Components/Return";
 import { Link } from "react-router-dom";
+import Selector from "../Components/Selector";
+
 const Inspiration = () => {
   return (
     <div>
@@ -9,6 +11,7 @@ const Inspiration = () => {
       <Link to="/">
         <Return />
       </Link>
+      <Selector />
       <div>
         <section className="py-48 bg-white flex flex-col justify-center">
           <div className="grid grid-cols-2 gap-10 max-w-6xl mx-auto">

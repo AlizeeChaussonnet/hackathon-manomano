@@ -12,6 +12,7 @@ import ShopLivingRoom from "./pages/ShopLivingRoom";
 import ShopKitchen from "./pages/ShopKitchen";
 import Forum from "./pages/Forum";
 import Inspiration from "./pages/Inspiration";
+import Configurator3D from "./pages/Configurator3D";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,7 +22,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Homepage />} />
-          <Route exact path ="/inspiration" element={<Inspiration />} />
+          <Route exact path="/inspiration" element={<Inspiration />} />
           <Route exact path="/bathroom" element={<Bathroom />} />
           <Route exact path="/livingroom" element={<LivingRoom />} />
           <Route exact path="/kitchen" element={<Kitchen />} />
@@ -31,6 +32,7 @@ function App() {
           <Route exact path="/shopkitchen" element={<ShopKitchen />} />
           <Route exact path="/shoplivingroom" element={<ShopLivingRoom />} />
           <Route exact path="/forum" element={<Forum />} />
+          <Route exact path="/configurator" element={<Configurator3D />} />
         </Routes>
       </Router>
     </>
