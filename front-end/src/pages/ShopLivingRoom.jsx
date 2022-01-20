@@ -372,16 +372,16 @@ const ShopLivingRoom = () => {
                       Subtotal
                     </div>
                     <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                      374,81 €
+                      1 519.82€
                     </div>
                   </div>
                 </div>
                 <div className="flex justify-between pt-4 border-b">
                   <div className="lg:px-4 lg:py-2 m-2 text-lg lg:text-xl font-bold text-center text-gray-800">
-                    Tax
+                    Delivery
                   </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                    74,962 €
+                    35€
                   </div>
                 </div>
                 <div className="flex justify-between pt-4 border-b">
@@ -389,7 +389,7 @@ const ShopLivingRoom = () => {
                     Total
                   </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                    449,772 €
+                    1 519.82€
                   </div>
                 </div>
                 <a href="#">

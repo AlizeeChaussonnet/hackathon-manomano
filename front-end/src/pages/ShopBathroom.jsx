@@ -170,7 +170,7 @@ const ShopBathroom = () => {
                           <div className="relative flex flex-row w-full h-8">
                             <input
                               type="number"
-                              value="20"
+                              value="10"
                               className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
                             />
                           </div>
@@ -183,7 +183,7 @@ const ShopBathroom = () => {
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          948.00€
+                          474.00€
                         </span>
                       </td>
                     </tr>
@@ -566,16 +566,16 @@ const ShopBathroom = () => {
                       Subtotal
                     </div>
                     <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                      374,81 €
+                      2 042.35€
                     </div>
                   </div>
                 </div>
                 <div className="flex justify-between pt-4 border-b">
                   <div className="lg:px-4 lg:py-2 m-2 text-lg lg:text-xl font-bold text-center text-gray-800">
-                    Tax
+                    Delivery
                   </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                    74,962 €
+                    35€
                   </div>
                 </div>
                 <div className="flex justify-between pt-4 border-b">
@@ -583,7 +583,7 @@ const ShopBathroom = () => {
                     Total
                   </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                    449,772 €
+                    2 074.35€
                   </div>
                 </div>
                 <a href="#">
