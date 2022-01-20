@@ -1,9 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-<<<<<<< HEAD
-=======
-
->>>>>>> a8d9f4b7e0d777aa1dd60832e8d8dcf4d5a13458
 import ShowerScreen from "../assets/image/showerscreen.png";
 import Vasquesdb from "../assets/image/vasquesdb.png";
 import Robinet from "../assets/image/robinet.png";
@@ -270,12 +266,12 @@ const ShopBathroom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                        47.30€
+                          47.30€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                        567.60€
+                          567.60€
                         </span>
                       </td>
                     </tr>
@@ -372,11 +368,13 @@ const ShopBathroom = () => {
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
                         <a href="#">
-                          <img
-                            src={ShowerScreen}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
+                          <Link to="/forum">
+                            <img
+                              src={ShowerScreen}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </Link>
                         </a>
                       </td>
                       <td>
@@ -567,7 +565,7 @@ const ShopBathroom = () => {
                     Subtotal
                   </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                  2 516.35€
+                    2 516.35€
                   </div>
                 </div>
               </div>
@@ -576,7 +574,7 @@ const ShopBathroom = () => {
                   Delivery
                 </div>
                 <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                38.99€ 
+                  38.99€
                 </div>
               </div>
               <div className="flex justify-between pt-4 border-b">
@@ -584,7 +582,7 @@ const ShopBathroom = () => {
                   Total
                 </div>
                 <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                2 555.34€
+                  2 555.34€
                 </div>
               </div>
               <a href="#">

@@ -1,4 +1,4 @@
-import Navbar from "../pages/Navbar";
+import Navbar from "../Components/Navbar";
 export default function Forum() {
   return (
     <>
