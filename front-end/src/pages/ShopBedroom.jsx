@@ -1,16 +1,24 @@
 import React from "react";
-import ShowerScreen from "../assets/image/showerscreen.png";
+
 import Vasquesdb from "../assets/image/vasquesdb.png";
 import Robinet from "../assets/image/robinet.png";
-import Mirror from "../assets/image/miroir.png";
+import Tetedelit from "../assets/image/tetedelit.png";
+import Sommier from "../assets/image/sommier2.png"
+import Return from "../Components/Return";
+import { Link } from "react-router-dom";
+import Navigation from "../Components/Navbar";
 
 const ShopBedroom = () => {
   return (
     <>
+    <Navigation />
+    <Link to="/bedroom">
+        <Return />
+      </Link>
       <div className=" flex justify-center my-6">
         <img
           className="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
-          src="https://i.pinimg.com/564x/0f/a5/d0/0fa5d0f5b41a4274bdc3a4ebf9962412.jpg"
+          src="https://i.pinimg.com/564x/e4/bc/07/e4bc07913934b6df55a54c469969d9bb.jpg"
         />
         <div className="flex flex-col w-full p-8 text-gray-800 bg-white shadow-lg pin-r pin-y md:w-4/5 lg:w-4/5">
           <div className="flex-1">
@@ -36,17 +44,19 @@ const ShopBedroom = () => {
                   <tbody>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
+                        
                         <a href="#">
                           <img
-                            src={ShowerScreen}
+                            src={Tetedelit}
                             className="w-20 h-16 rounded"
                             alt="Thumbnail"
                           />
                         </a>
+                        
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Shower screen</p>
+                          <p className="mb-2 md:ml-4">Bedhead</p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -70,12 +80,12 @@ const ShopBedroom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          120.00€
+                        182€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          120.00€
+                        182€
                         </span>
                       </td>
                     </tr>
@@ -84,7 +94,7 @@ const ShopBedroom = () => {
                       <td className="hidden pb-4 md:table-cell">
                         <a href="#">
                           <img
-                            src={Robinet}
+                            src={Sommier}
                             className="w-20 h-16 rounded"
                             alt="Thumbnail"
                           />
@@ -92,7 +102,7 @@ const ShopBedroom = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Tap</p>
+                          <p className="mb-2 md:ml-4">Bedspring</p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -116,12 +126,12 @@ const ShopBedroom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          71,82€
+                        129.99€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          71,82€
+                        129.99€
                         </span>
                       </td>
                     </tr>
@@ -129,7 +139,7 @@ const ShopBedroom = () => {
                       <td className="hidden pb-4 md:table-cell">
                         <a href="#">
                           <img
-                            src={Mirror}
+                            src={Tetedelit}
                             className="w-20 rounded h-16"
                             alt="Thumbnail"
                           />

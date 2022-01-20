@@ -1,8 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Return from "../Components/Return";
+import Navigation from "../Components/Navbar";
+
 const LivingRoom = () => {
   return (
     <div>
+      <Navigation />
+      <Link to="/">
+        <Return />
+      </Link>
       <div>
         <section className="py-48 bg-white flex flex-col justify-center">
           <div className="grid grid-cols-2 gap-10 max-w-6xl mx-auto">
@@ -19,12 +26,12 @@ const LivingRoom = () => {
               />
             </div>
             <Link to="/shoplivingroom">
-            <div className="-mt-64 flex justify-start">
-              <img
-                className="rounded-lg object-cover overflow-hidden"
-                src="https://i.pinimg.com/564x/98/7f/cc/987fcc2dc4c6092840b1a22f1d70de33.jpg"
-              />
-            </div>
+              <div className="-mt-64 flex justify-start">
+                <img
+                  className="rounded-lg object-cover overflow-hidden"
+                  src="https://i.pinimg.com/564x/98/7f/cc/987fcc2dc4c6092840b1a22f1d70de33.jpg"
+                />
+              </div>
             </Link>
             <div className="flex justify-start -mr-28 ml-28">
               <img

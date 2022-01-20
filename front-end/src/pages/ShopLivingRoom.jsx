@@ -7,10 +7,15 @@ import Tablebasse from "../assets/image/tablebasse.png";
 import ParquetSalon from "../assets/image/parquetsalon.png";
 import Peinture from "../assets/image/peinture.png";
 import Navigation from "../Components/Navbar";
+import Return from "../Components/Return";
+import { Link } from "react-router-dom";
 const ShopLivingRoom = () => {
   return (
     <>
     <Navigation />
+    <Link to="/livingroom">
+        <Return />
+      </Link>
       <div className=" flex justify-center my-6">
         <img
           className="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
