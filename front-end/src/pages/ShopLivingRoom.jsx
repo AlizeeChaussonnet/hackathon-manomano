@@ -7,12 +7,19 @@ import Tablebasse from "../assets/image/tablebasse.png";
 import ParquetSalon from "../assets/image/parquetsalon.png";
 import Peinture from "../assets/image/peinture.png";
 import Navigation from "../Components/Navbar";
+import Return from "../Components/Return";
+import { Link } from "react-router-dom";
 import "../App.css";
+import { QuestionMarkCircleIcon } from "@heroicons/react/solid";
+import Button3D from "../Components/Button3D";
 
 const ShopLivingRoom = () => {
   return (
     <>
       <Navigation />
+      <Link to="/livingroom">
+        <Return />
+      </Link>
       <div className=" flex justify-center my-6">
         <img
           className="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
@@ -41,18 +48,24 @@ const ShopLivingRoom = () => {
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Couch}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                      <td className="hidden pb-4 md:table-cell largeurCol py-2">
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Couch}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Couch<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                          <p className="mb-2 md:ml-4">
+                            Couch
+                            <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
+                          </p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -88,17 +101,23 @@ const ShopLivingRoom = () => {
 
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Tablebasse}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Tablebasse}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Low table<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                          <p className="mb-2 md:ml-4">
+                            Low table
+                            <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
+                          </p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -133,16 +152,22 @@ const ShopLivingRoom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Fauteuil}
-                            className="w-20 rounded h-16"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Fauteuil}
+                              className="w-20 rounded h-16"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">Armchair<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                        <p className="mb-2 md:ml-4">
+                          Armchair
+                          <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
+                        </p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -176,16 +201,22 @@ const ShopLivingRoom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Cheminee}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Cheminee}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">Fireplace<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                        <p className="mb-2 md:ml-4">
+                          Fireplace
+                          <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
+                        </p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -219,16 +250,22 @@ const ShopLivingRoom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={MiroirSalon}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={MiroirSalon}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">Mirror<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                        <p className="mb-2 md:ml-4">
+                          Mirror
+                          <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
+                        </p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -262,16 +299,22 @@ const ShopLivingRoom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={ParquetSalon}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={ParquetSalon}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">Wooden floor<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                        <p className="mb-2 md:ml-4">
+                          Wooden floor
+                          <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
+                        </p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -305,16 +348,22 @@ const ShopLivingRoom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Peinture}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Peinture}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">White Paint<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                        <p className="mb-2 md:ml-4">
+                          White Paint
+                          <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
+                        </p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -353,8 +402,10 @@ const ShopLivingRoom = () => {
             <hr className="pb-6 mt-6" />
             <div className="my-4 mt-6 -mx-2 lg:flex">
               <div className="lg:px-2 lg:w-1/2">
-                <div className="p-4 bg-gray-100 rounded-full">
-                  <h1 className="ml-2 font-bold uppercase">Order Details</h1>
+                <div className="section-shop">
+                  <h1 className="ml-2 font-bold text-white uppercase">
+                    Order Details
+                  </h1>
                 </div>
                 <div className="p-4">
                   <p className="mb-6 italic">
@@ -366,16 +417,16 @@ const ShopLivingRoom = () => {
                       Subtotal
                     </div>
                     <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                      374,81 €
+                      1 519.82€
                     </div>
                   </div>
                 </div>
                 <div className="flex justify-between pt-4 border-b">
                   <div className="lg:px-4 lg:py-2 m-2 text-lg lg:text-xl font-bold text-center text-gray-800">
-                    Tax
+                    Delivery
                   </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                    74,962 €
+                    35€
                   </div>
                 </div>
                 <div className="flex justify-between pt-4 border-b">
@@ -383,11 +434,11 @@ const ShopLivingRoom = () => {
                     Total
                   </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                    449,772 €
+                    1 519.82€
                   </div>
                 </div>
                 <a href="#">
-                  <button className="flex justify-center w-full px-10 py-3 mt-6 font-medium text-white uppercase bg-gray-800 rounded-full shadow item-center hover:bg-gray-700 focus:shadow-outline focus:outline-none">
+                  <button className="procceed-payment">
                     <svg
                       aria-hidden="true"
                       data-prefix="far"
@@ -406,8 +457,8 @@ const ShopLivingRoom = () => {
                 </a>
               </div>
               <div className="lg:px-2 lg:w-1/2">
-                <div className="p-4 bg-gray-100 rounded-full">
-                  <h1 className="ml-2 font-bold uppercase">
+                <div className="section-shop">
+                  <h1 className="ml-2 font-bold text-white uppercase">
                     Instruction for seller
                   </h1>
                 </div>
@@ -419,8 +470,8 @@ const ShopLivingRoom = () => {
                   <textarea className="w-full h-24 p-2 bg-gray-100 rounded"></textarea>
                 </div>
                 <div>
-                  <div className="p-4 bg-gray-100 rounded-full">
-                    <h1 className="ml-2 font-bold uppercase">
+                  <div className="section-shop">
+                    <h1 className="ml-2 font-bold text-white uppercase">
                       Installation by a professional
                     </h1>
                   </div>
@@ -437,7 +488,7 @@ const ShopLivingRoom = () => {
                       <span className="relative z-20 w-full">
                         {" "}
                         I would like to entrust the installation to a
-                        professional
+                        professional (50€)
                       </span>
                       <div className="absolute inset-0 bg-white peer-checked:bg-teal-50 peer-checked:border-teal-300 z-10 border rounded-2xl"></div>
                     </label>

@@ -1,17 +1,31 @@
 import React from "react";
-import ShowerScreen from "../assets/image/showerscreen.png";
-import Vasquesdb from "../assets/image/vasquesdb.png";
-import Robinet from "../assets/image/robinet.png";
-import Mirror from "../assets/image/miroir.png";
 import "../App.css";
+import Matelas from "../assets/image/matelas.png";
+import Suspension from "../assets/image/suspensionbed.png";
+import Tetedelit from "../assets/image/tetedelit.png";
+import Sommier from "../assets/image/sommier2.png";
+import Vase from "../assets/image/vasebed.png";
+import Return from "../Components/Return";
+import { Link } from "react-router-dom";
+import Navigation from "../Components/Navbar";
+import Plumes from "../assets/image/plumes.png";
+import Table from "../assets/image/table.png";
+import Peinture from "../assets/image/peinture.png";
+import Parquet from "../assets/image/parquetbed.png";
+import { QuestionMarkCircleIcon } from "@heroicons/react/solid";
+import Button3D from "../Components/Button3D";
 
 const ShopBedroom = () => {
   return (
     <>
+      <Navigation />
+      <Link to="/bedroom">
+        <Return />
+      </Link>
       <div className=" flex justify-center my-6">
         <img
           className="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
-          src="https://i.pinimg.com/564x/0f/a5/d0/0fa5d0f5b41a4274bdc3a4ebf9962412.jpg"
+          src="https://i.pinimg.com/564x/e4/bc/07/e4bc07913934b6df55a54c469969d9bb.jpg"
         />
         <div className="flex flex-col w-full p-8 text-gray-800 bg-white shadow-lg pin-r pin-y md:w-4/5 lg:w-4/5">
           <div className="flex-1">
@@ -37,17 +51,23 @@ const ShopBedroom = () => {
                   <tbody>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={ShowerScreen}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Tetedelit}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Shower screen<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                          <p className="mb-2 md:ml-4">
+                            Bedhead
+                            <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
+                          </p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -71,29 +91,35 @@ const ShopBedroom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          120.00€
+                          182€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          120.00€
+                          182€
                         </span>
                       </td>
                     </tr>
 
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Robinet}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Sommier}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Tap<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                          <p className="mb-2 md:ml-4">
+                            Bedspring
+                            <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
+                          </p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -117,27 +143,33 @@ const ShopBedroom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          71,82€
+                          129.99€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          71,82€
+                          129.99€
                         </span>
                       </td>
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Mirror}
-                            className="w-20 rounded h-16"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Suspension}
+                              className="w-20 rounded h-16"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">Mirror<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                        <p className="mb-2 md:ml-4">
+                          Light
+                          <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
+                        </p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -152,7 +184,7 @@ const ShopBedroom = () => {
                           <div className="relative flex flex-row w-full h-8">
                             <input
                               type="number"
-                              value="1"
+                              value="2"
                               className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
                             />
                           </div>
@@ -160,27 +192,30 @@ const ShopBedroom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          113,99 €
+                          50.49€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          113,99 €
+                          100.98€
                         </span>
                       </td>
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Vasquesdb}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Matelas}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">White round basin<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                        <p className="mb-2 md:ml-4">Mattress</p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -203,15 +238,254 @@ const ShopBedroom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          69.00€
+                          162.99€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          69.00€
+                          162.99€
                         </span>
                       </td>
                     </tr>
+
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Vase}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
+                      </td>
+                      <td>
+                        <p className="mb-2 md:ml-4">Vase</p>
+                        <form action="" method="POST">
+                          <button
+                            type="submit"
+                            className="text-gray-700 md:ml-4"
+                          >
+                            <small>(Remove item)</small>
+                          </button>
+                        </form>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex md:mt-8">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="1"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+                          25.14€
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          25.14€
+                        </span>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Plumes}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
+                      </td>
+                      <td>
+                        <p className="mb-2 md:ml-4">Pampa Herbs</p>
+                        <form action="" method="POST">
+                          <button
+                            type="submit"
+                            className="text-gray-700 md:ml-4"
+                          >
+                            <small>(Remove item)</small>
+                          </button>
+                        </form>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex md:mt-8">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="1"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+                          19.99€
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          19.99€
+                        </span>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Table}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
+                      </td>
+                      <td>
+                        <p className="mb-2 md:ml-4">Nightstand</p>
+                        <form action="" method="POST">
+                          <button
+                            type="submit"
+                            className="text-gray-700 md:ml-4"
+                          >
+                            <small>(Remove item)</small>
+                          </button>
+                        </form>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex md:mt-8">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="1"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+                          119.99€
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          119.99€
+                        </span>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Peinture}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
+                      </td>
+                      <td>
+                        <p className="mb-2 md:ml-4">
+                          White paint
+                          <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
+                        </p>
+                        <form action="" method="POST">
+                          <button
+                            type="submit"
+                            className="text-gray-700 md:ml-4"
+                          >
+                            <small>(Remove item)</small>
+                          </button>
+                        </form>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex md:mt-8">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="1"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+                          51.90€
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          51.90€
+                        </span>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Parquet}
+                              className="w-20 rounded h-16"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
+                      </td>
+                      <td>
+                        <p className="mb-2 md:ml-4">Light</p>
+                        <form action="" method="POST">
+                          <button
+                            type="submit"
+                            className="text-gray-700 md:ml-4"
+                          >
+                            <small>(Remove item)</small>
+                          </button>
+                        </form>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex md:mt-4">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="5"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+                          71.90€
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          359.50€
+                        </span>
+                      </td>
+                    </tr>
+                    <tr></tr>
                   </tbody>
                 </table>
               </div>
@@ -219,8 +493,10 @@ const ShopBedroom = () => {
             <hr className="pb-6 mt-6" />
             <div className="my-4 mt-6 -mx-2 lg:flex">
               <div className="lg:px-2 lg:w-1/2">
-                <div className="order">
-                  <h1 className="ml-2 font-bold uppercase">Order Details</h1>
+                <div className="section-shop">
+                  <h1 className="ml-2 font-bold text-white uppercase">
+                    Order Details
+                  </h1>
                 </div>
                 <div className="p-4">
                   <p className="mb-6 italic">
@@ -232,16 +508,16 @@ const ShopBedroom = () => {
                       Subtotal
                     </div>
                     <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                      148,827.53€
+                      1 182.48€
                     </div>
                   </div>
                 </div>
                 <div className="flex justify-between pt-4 border-b">
                   <div className="lg:px-4 lg:py-2 m-2 text-lg lg:text-xl font-bold text-center text-gray-800">
-                    Tax
+                    Delivery
                   </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                    374,81 €
+                    30€
                   </div>
                 </div>
                 <div className="flex justify-between pt-4 border-b">
@@ -249,11 +525,11 @@ const ShopBedroom = () => {
                     Total
                   </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                    17,859.3€
+                    1 182.48€
                   </div>
                 </div>
                 <a href="#">
-                  <button className="flex justify-center w-full px-10 py-3 mt-6 font-medium text-white uppercase bg-gray-800 rounded-full shadow item-center hover:bg-gray-700 focus:shadow-outline focus:outline-none">
+                  <button className="procceed-payment">
                     <svg
                       aria-hidden="true"
                       data-prefix="far"
@@ -272,8 +548,8 @@ const ShopBedroom = () => {
                 </a>
               </div>
               <div className="lg:px-2 lg:w-1/2">
-                <div className="p-4 bg-gray-100 rounded-full">
-                  <h1 className="ml-2 font-bold uppercase">
+                <div className="section-shop">
+                  <h1 className="ml-2 font-bold text-white uppercase">
                     Instruction for seller
                   </h1>
                 </div>
@@ -285,8 +561,8 @@ const ShopBedroom = () => {
                   <textarea className="w-full h-24 p-2 bg-gray-100 rounded"></textarea>
                 </div>
                 <div>
-                  <div className="p-4 bg-gray-100 rounded-full">
-                    <h1 className="ml-2 font-bold uppercase">
+                  <div className="section-shop">
+                    <h1 className="ml-2 font-bold text-white uppercase">
                       Installation by a professional
                     </h1>
                   </div>
@@ -303,7 +579,7 @@ const ShopBedroom = () => {
                       <span className="relative z-20 w-full">
                         {" "}
                         I would like to entrust the installation to a
-                        professional
+                        professional (50€)
                       </span>
                       <div className="absolute inset-0 bg-white peer-checked:bg-teal-50 peer-checked:border-teal-300 z-10 border rounded-2xl"></div>
                     </label>
