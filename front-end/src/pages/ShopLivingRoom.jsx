@@ -7,12 +7,18 @@ import Tablebasse from "../assets/image/tablebasse.png";
 import ParquetSalon from "../assets/image/parquetsalon.png";
 import Peinture from "../assets/image/peinture.png";
 import Navigation from "../Components/Navbar";
+import Return from "../Components/Return";
+import { Link } from "react-router-dom";
 import "../App.css";
+import { QuestionMarkCircleIcon } from "@heroicons/react/solid";
 
 const ShopLivingRoom = () => {
   return (
     <>
       <Navigation />
+    <Link to="/livingroom">
+        <Return />
+      </Link>
       <div className=" flex justify-center my-6">
         <img
           className="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
@@ -52,7 +58,7 @@ const ShopLivingRoom = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Couch</p>
+                          <p className="mb-2 md:ml-4">Couch<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -98,7 +104,7 @@ const ShopLivingRoom = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Low table</p>
+                          <p className="mb-2 md:ml-4">Low table<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -142,7 +148,7 @@ const ShopLivingRoom = () => {
                         </a>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">Armchair</p>
+                        <p className="mb-2 md:ml-4">Armchair<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -185,7 +191,7 @@ const ShopLivingRoom = () => {
                         </a>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">Fireplace</p>
+                        <p className="mb-2 md:ml-4">Fireplace<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -228,7 +234,7 @@ const ShopLivingRoom = () => {
                         </a>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">Mirror</p>
+                        <p className="mb-2 md:ml-4">Mirror<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -271,7 +277,7 @@ const ShopLivingRoom = () => {
                         </a>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">Wooden floor</p>
+                        <p className="mb-2 md:ml-4">Wooden floor<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -314,7 +320,7 @@ const ShopLivingRoom = () => {
                         </a>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">White Paint</p>
+                        <p className="mb-2 md:ml-4">White Paint<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -368,16 +374,16 @@ const ShopLivingRoom = () => {
                       Subtotal
                     </div>
                     <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                      374,81 €
+                      1 519.82€
                     </div>
                   </div>
                 </div>
                 <div className="flex justify-between pt-4 border-b">
                   <div className="lg:px-4 lg:py-2 m-2 text-lg lg:text-xl font-bold text-center text-gray-800">
-                    Tax
+                    Delivery
                   </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                    74,962 €
+                    35€
                   </div>
                 </div>
                 <div className="flex justify-between pt-4 border-b">
@@ -385,7 +391,7 @@ const ShopLivingRoom = () => {
                     Total
                   </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                    449,772 €
+                    1 519.82€
                   </div>
                 </div>
                 <a href="#">

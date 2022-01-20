@@ -3,11 +3,17 @@ import ShowerScreen from "../assets/image/showerscreen.png";
 import Vasquesdb from "../assets/image/vasquesdb.png";
 import Robinet from "../assets/image/robinet.png";
 import Mirror from "../assets/image/miroir.png";
+import Return from "../Components/Return";
+import { Link } from "react-router-dom";
 import "../App.css";
 
 const ShopKitchen = () => {
   return (
     <>
+    <Navigation />
+    <Link to="/kitchen">
+        <Return />
+      </Link>
       <div className=" flex justify-center my-6">
         <img
           className="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
@@ -47,7 +53,7 @@ const ShopKitchen = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Shower screen</p>
+                          <p className="mb-2 md:ml-4">Shower screen<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -93,7 +99,7 @@ const ShopKitchen = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Tap</p>
+                          <p className="mb-2 md:ml-4">Tap<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -137,7 +143,7 @@ const ShopKitchen = () => {
                         </a>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">Mirror</p>
+                        <p className="mb-2 md:ml-4">Mirror<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -180,7 +186,7 @@ const ShopKitchen = () => {
                         </a>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">White round basin</p>
+                        <p className="mb-2 md:ml-4">White round basin<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
                         <form action="" method="POST">
                           <button
                             type="submit"
