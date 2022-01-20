@@ -11,12 +11,13 @@ import Return from "../Components/Return";
 import { Link } from "react-router-dom";
 import "../App.css";
 import { QuestionMarkCircleIcon } from "@heroicons/react/solid";
+import Button3D from "../Components/Button3D";
 
 const ShopLivingRoom = () => {
   return (
     <>
       <Navigation />
-    <Link to="/livingroom">
+      <Link to="/livingroom">
         <Return />
       </Link>
       <div className=" flex justify-center my-6">
@@ -47,18 +48,24 @@ const ShopLivingRoom = () => {
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Couch}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                      <td className="hidden pb-4 md:table-cell largeurCol py-2">
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Couch}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Couch<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                          <p className="mb-2 md:ml-4">
+                            Couch
+                            <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
+                          </p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -94,17 +101,23 @@ const ShopLivingRoom = () => {
 
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Tablebasse}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Tablebasse}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Low table<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                          <p className="mb-2 md:ml-4">
+                            Low table
+                            <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
+                          </p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -139,16 +152,22 @@ const ShopLivingRoom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Fauteuil}
-                            className="w-20 rounded h-16"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Fauteuil}
+                              className="w-20 rounded h-16"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">Armchair<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                        <p className="mb-2 md:ml-4">
+                          Armchair
+                          <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
+                        </p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -182,16 +201,22 @@ const ShopLivingRoom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Cheminee}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Cheminee}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">Fireplace<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                        <p className="mb-2 md:ml-4">
+                          Fireplace
+                          <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
+                        </p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -225,16 +250,22 @@ const ShopLivingRoom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={MiroirSalon}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={MiroirSalon}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">Mirror<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                        <p className="mb-2 md:ml-4">
+                          Mirror
+                          <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
+                        </p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -268,16 +299,22 @@ const ShopLivingRoom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={ParquetSalon}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={ParquetSalon}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">Wooden floor<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                        <p className="mb-2 md:ml-4">
+                          Wooden floor
+                          <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
+                        </p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -311,16 +348,22 @@ const ShopLivingRoom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Peinture}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Peinture}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">White Paint<QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]"/></p>
+                        <p className="mb-2 md:ml-4">
+                          White Paint
+                          <QuestionMarkCircleIcon className="h-5 w-5 text-[#0c193a]" />
+                        </p>
                         <form action="" method="POST">
                           <button
                             type="submit"

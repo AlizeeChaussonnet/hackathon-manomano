@@ -64,7 +64,9 @@ const ShopBathroom = () => {
                               alt="Thumbnail"
                             />
                           </a>
-                          <Button3D />
+                          <Link to="/configurator">
+                            <Button3D />
+                          </Link>
                         </div>
                       </td>
                       <td>
