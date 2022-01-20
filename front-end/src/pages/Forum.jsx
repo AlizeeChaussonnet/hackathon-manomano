@@ -1,8 +1,15 @@
+import { Link } from "react-router-dom";
+
 import Navbar from "../Components/Navbar";
+import Return from "../Components/Return";
+
 export default function Forum() {
   return (
     <>
       <Navbar />
+      <Link to="/shopbathroom">
+        <Return />
+      </Link>
       <div className="bg-white p-8 rounded-md w-full">
         <div className=" flex items-center justify-between pb-6">
           <div>

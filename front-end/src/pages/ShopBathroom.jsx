@@ -22,7 +22,6 @@ const ShopBathroom = () => {
       <Link to="/bathroom">
         <Return />
       </Link>
-      <Button3D className="text-red" />
 
       <div className=" flex justify-center my-6">
         <div>
@@ -55,13 +54,16 @@ const ShopBathroom = () => {
                   <tbody>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Furniture}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Furniture}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
                         <a href="#">
@@ -100,13 +102,16 @@ const ShopBathroom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Shower}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Shower}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
                         <a href="#">
@@ -145,13 +150,16 @@ const ShopBathroom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={CarrelageSol}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={CarrelageSol}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
                         <a href="#">
@@ -190,13 +198,16 @@ const ShopBathroom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Candle}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Candle}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
                         <a href="#">
@@ -235,13 +246,16 @@ const ShopBathroom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={CarrelageMur}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={CarrelageMur}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
                         <a href="#">
@@ -280,13 +294,16 @@ const ShopBathroom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Lantern}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Lantern}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
                         <a href="#">
@@ -324,14 +341,17 @@ const ShopBathroom = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Carpet}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                      <td className="hidden pb-4 md:table-cell test">
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Carpet}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
                         <a href="#">
@@ -370,15 +390,18 @@ const ShopBathroom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <Link to="/forum">
-                            <img
-                              src={ShowerScreen}
-                              className="w-20 h-16 rounded"
-                              alt="Thumbnail"
-                            />
-                          </Link>
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <Link to="/forum">
+                              <img
+                                src={ShowerScreen}
+                                className="w-20 h-16 rounded"
+                                alt="Thumbnail"
+                              />
+                            </Link>
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
                         <a href="#">
@@ -417,13 +440,16 @@ const ShopBathroom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Robinet}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Robinet}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
                         <a href="#">
@@ -462,13 +488,16 @@ const ShopBathroom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Mirror}
-                            className="w-20 rounded h-16"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Mirror}
+                              className="w-20 rounded h-16"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
                         <p className="mb-2 md:ml-4">Mirror</p>
@@ -505,13 +534,16 @@ const ShopBathroom = () => {
                     </tr>
                     <tr>
                       <td className="hidden pb-4 md:table-cell">
-                        <a href="#">
-                          <img
-                            src={Vasquesdb}
-                            className="w-20 h-16 rounded"
-                            alt="Thumbnail"
-                          />
-                        </a>
+                        <div className="flex items-center justify-between">
+                          <a href="#">
+                            <img
+                              src={Vasquesdb}
+                              className="w-20 h-16 rounded"
+                              alt="Thumbnail"
+                            />
+                          </a>
+                          <Button3D />
+                        </div>
                       </td>
                       <td>
                         <p className="mb-2 md:ml-4">White round basin</p>
