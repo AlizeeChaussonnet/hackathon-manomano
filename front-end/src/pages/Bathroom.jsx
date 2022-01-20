@@ -1,9 +1,12 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom'
+
 import { Link } from "react-router-dom";
 import Navigation from "../Components/Navbar";
 import Return from "../Components/Return";
 
 const Bathroom = () => {
+  const navigate = useNavigate()
   return (
     <div>
       <Navigation />
