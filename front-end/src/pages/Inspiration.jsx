@@ -3,6 +3,7 @@ import Navigation from "../Components/Navbar";
 import Return from "../Components/Return";
 import { Link } from "react-router-dom";
 import StackGrid, { transitions } from "react-stack-grid";
+import Selector from "../Components/Selector";
 
 const Inspiration = () => {
   const { scaleDown } = transitions;
@@ -12,6 +13,7 @@ const Inspiration = () => {
       <Link to="/">
         <Return />
       </Link>
+      <Selector />
       <div>
         <StackGrid
           columnWidth={400}

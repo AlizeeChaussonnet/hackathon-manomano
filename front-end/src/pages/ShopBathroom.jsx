@@ -64,7 +64,9 @@ const ShopBathroom = () => {
                               alt="Thumbnail"
                             />
                           </a>
-                          <Button3D />
+                          <Link to="/configurator">
+                            <Button3D />
+                          </Link>
                         </div>
                       </td>
                       <td>
@@ -361,7 +363,7 @@ const ShopBathroom = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td className="hidden pb-4 md:table-cell test">
+                      <td className="hidden pb-4 md:table-cell largeurCol">
                         <div className="flex items-center justify-between">
                           <a href="#">
                             <img
