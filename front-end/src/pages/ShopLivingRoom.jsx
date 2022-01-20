@@ -1,208 +1,351 @@
-import React from 'react';
-import ShowerScreen from "../assets/image/showerscreen.png";
-import Vasquesdb from "../assets/image/vasquesdb.png";
-import Robinet from "../assets/image/robinet.png"
-import Mirror from "../assets/image/miroir.png"
+import React from "react";
 
+import MiroirSalon from "../assets/image/miroirsalon.png";
+import Fauteuil from "../assets/image/fauteuil.png";
+import Cheminee from "../assets/image/cheminee.png";
+import Couch from "../assets/image/canape.png";
+import Tablebasse from "../assets/image/tablebasse.png";
+import ParquetSalon from "../assets/image/parquetsalon.png";
+import Peinture from "../assets/image/peinture.png";
 const ShopLivingRoom = () => {
-    return (
-        <>
-               <div className=" flex justify-center my-6">
+  return (
+    <>
+      <div className=" flex justify-center my-6">
         <img
           classNameName="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
-          src="https://i.pinimg.com/564x/0f/a5/d0/0fa5d0f5b41a4274bdc3a4ebf9962412.jpg"
+          src="https://i.pinimg.com/564x/98/7f/cc/987fcc2dc4c6092840b1a22f1d70de33.jpg"
         />
         <div className="flex flex-col w-full p-8 text-gray-800 bg-white shadow-lg pin-r pin-y md:w-4/5 lg:w-4/5">
-          <div className="flex-1" >
+          <div className="flex-1">
             <div className="relative">
               <div className="overflow-auto h-80">
-            <table className="w-full text-sm lg:text-base " cellspacing="0"  >
-              <thead>
-                <tr className="h-12 uppercase">
-                  <th className="hidden md:table-cell"></th>
-                  <th className="text-left">Product</th>
-                  <th className="lg:text-right text-left pl-5 lg:pl-0">
-                    <span className="lg:hidden" title="Quantity">
-                      Qtd
-                    </span>
-                    <span className="hidden lg:inline">Quantity</span>
-                  </th>
-                  <th className="hidden text-right md:table-cell">
-                    Unit price
-                  </th>
-                  <th className="text-right">Total price</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td className="hidden pb-4 md:table-cell">
-                    <a href="#">
-                      <img
-                        src={ShowerScreen}
-                        className="w-20 h-16 rounded"
-                        alt="Thumbnail"
-                      />
-                    </a>
-                  </td>
-                  <td>
-                    <a href="#">
-                      <p className="mb-2 md:ml-4">Shower screen</p>
-                      <form action="" method="POST">
-                        <button type="submit" className="text-gray-700 md:ml-4">
-                          <small>(Remove item)</small>
-                        </button>
-                      </form>
-                    </a>
-                  </td>
-                  <td className="justify-center md:justify-end md:flex mt-6">
-                    <div className="w-20 h-10">
-                      <div className="relative flex flex-row w-full h-8">
-                        <input
-                          type="number"
-                          value="1"
-                          className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
-                        />
-                      </div>
-                    </div>
-                  </td>
-                  <td className="hidden text-right md:table-cell">
-                    <span className="text-sm lg:text-base font-medium">
-                      120.00€
-                    </span>
-                  </td>
-                  <td className="text-right">
-                    <span className="text-sm lg:text-base font-medium">
-                      120.00€
-                    </span>
-                  </td>
-                </tr>
-                
-                <tr>
-                  <td className="hidden pb-4 md:table-cell">
-                    <a href="#">
-                      <img
-                        src={Robinet}
-                        className="w-20 h-16 rounded"
-                        alt="Thumbnail"
-                      />
-                    </a>
-                  </td>
-                  <td>
-                    <a href="#">
-                      <p className="mb-2 md:ml-4">Tap</p>
-                      <form action="" method="POST">
-                        <button type="submit" className="text-gray-700 md:ml-4">
-                          <small>(Remove item)</small>
-                        </button>
-                      </form>
-                    </a>
-                  </td>
-                  <td className="justify-center md:justify-end md:flex mt-6">
-                    <div className="w-20 h-10">
-                      <div className="relative flex flex-row w-full h-8">
-                        <input
-                          type="number"
-                          value="1"
-                          className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
-                        />
-                      </div>
-                    </div>
-                  </td>
-                  <td className="hidden text-right md:table-cell">
-                    <span className="text-sm lg:text-base font-medium">
-                    71,82€
-                    </span>
-                  </td>
-                  <td className="text-right">
-                    <span className="text-sm lg:text-base font-medium">
-                    71,82€
-                    </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="hidden pb-4 md:table-cell">
-                    <a href="#">
-                      <img
-                        src={Mirror}
-                        className="w-20 rounded h-16"
-                        alt="Thumbnail"
-                      />
-                    </a>
-                  </td>
-                  <td>
-                    <p className="mb-2 md:ml-4">Mirror</p>
-                    <form action="" method="POST">
-                      <button type="submit" className="text-gray-700 md:ml-4">
-                        <small>(Remove item)</small>
-                      </button>
-                    </form>
-                  </td>
-                  <td className="justify-center md:justify-end md:flex md:mt-4">
-                    <div className="w-20 h-10">
-                      <div className="relative flex flex-row w-full h-8">
-                        <input
-                          type="number"
-                          value="1"
-                          className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
-                        />
-                      </div>
-                    </div>
-                  </td>
-                  <td className="hidden text-right md:table-cell">
-                    <span className="text-sm lg:text-base font-medium">
-                    113,99 €
-                    </span>
-                  </td>
-                  <td className="text-right">
-                    <span className="text-sm lg:text-base font-medium">
-                    113,99 €
-                    </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="hidden pb-4 md:table-cell">
-                    <a href="#">
-                      <img
-                        src={Vasquesdb}
-                        className="w-20 h-16 rounded"
-                        alt="Thumbnail"
-                      />
-                    </a>
-                  </td>
-                  <td>
-                    <p className="mb-2 md:ml-4">White round basin</p>
-                    <form action="" method="POST">
-                      <button type="submit" className="text-gray-700 md:ml-4">
-                        <small>(Remove item)</small>
-                      </button>
-                    </form>
-                  </td>
-                  <td className="justify-center md:justify-end md:flex md:mt-8">
-                    <div className="w-20 h-10">
-                      <div className="relative flex flex-row w-full h-8">
-                        <input
-                          type="number"
-                          value="1"
-                          className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
-                        />
-                      </div>
-                    </div>
-                  </td>
-                  <td className="hidden text-right md:table-cell">
-                    <span className="text-sm lg:text-base font-medium">
-                    69.00€
-                    </span>
-                  </td>
-                  <td className="text-right">
-                    <span className="text-sm lg:text-base font-medium">
-                    69.00€
-                    </span>
-                  </td>
-                  
-                </tr>
-              </tbody>
-            </table>
-            </div>
+                <table className="w-full text-sm lg:text-base " cellspacing="0">
+                  <thead>
+                    <tr className="h-12 uppercase">
+                      <th className="hidden md:table-cell"></th>
+                      <th className="text-left">Product</th>
+                      <th className="lg:text-right text-left pl-5 lg:pl-0">
+                        <span className="lg:hidden" title="Quantity">
+                          Qtd
+                        </span>
+                        <span className="hidden lg:inline">Quantity</span>
+                      </th>
+                      <th className="hidden text-right md:table-cell">
+                        Unit price
+                      </th>
+                      <th className="text-right">Total price</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <a href="#">
+                          <img
+                            src={Couch}
+                            className="w-20 h-16 rounded"
+                            alt="Thumbnail"
+                          />
+                        </a>
+                      </td>
+                      <td>
+                        <a href="#">
+                          <p className="mb-2 md:ml-4">Couch</p>
+                          <form action="" method="POST">
+                            <button
+                              type="submit"
+                              className="text-gray-700 md:ml-4"
+                            >
+                              <small>(Remove item)</small>
+                            </button>
+                          </form>
+                        </a>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex mt-6">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="1"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+                          449,90€
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          449,90€
+                        </span>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <a href="#">
+                          <img
+                            src={Tablebasse}
+                            className="w-20 h-16 rounded"
+                            alt="Thumbnail"
+                          />
+                        </a>
+                      </td>
+                      <td>
+                        <a href="#">
+                          <p className="mb-2 md:ml-4">Low table</p>
+                          <form action="" method="POST">
+                            <button
+                              type="submit"
+                              className="text-gray-700 md:ml-4"
+                            >
+                              <small>(Remove item)</small>
+                            </button>
+                          </form>
+                        </a>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex mt-6">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="1"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+                          139,90€
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          139,90€
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <a href="#">
+                          <img
+                            src={Fauteuil}
+                            className="w-20 rounded h-16"
+                            alt="Thumbnail"
+                          />
+                        </a>
+                      </td>
+                      <td>
+                        <p className="mb-2 md:ml-4">Armchair</p>
+                        <form action="" method="POST">
+                          <button
+                            type="submit"
+                            className="text-gray-700 md:ml-4"
+                          >
+                            <small>(Remove item)</small>
+                          </button>
+                        </form>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex md:mt-4">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="1"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+                          256,95€
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          256,95€
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <a href="#">
+                          <img
+                            src={Cheminee}
+                            className="w-20 h-16 rounded"
+                            alt="Thumbnail"
+                          />
+                        </a>
+                      </td>
+                      <td>
+                        <p className="mb-2 md:ml-4">Fireplace</p>
+                        <form action="" method="POST">
+                          <button
+                            type="submit"
+                            className="text-gray-700 md:ml-4"
+                          >
+                            <small>(Remove item)</small>
+                          </button>
+                        </form>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex md:mt-8">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="1"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+                          139,99€
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          139,99€
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <a href="#">
+                          <img
+                            src={MiroirSalon}
+                            className="w-20 h-16 rounded"
+                            alt="Thumbnail"
+                          />
+                        </a>
+                      </td>
+                      <td>
+                        <p className="mb-2 md:ml-4">Mirror</p>
+                        <form action="" method="POST">
+                          <button
+                            type="submit"
+                            className="text-gray-700 md:ml-4"
+                          >
+                            <small>(Remove item)</small>
+                          </button>
+                        </form>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex md:mt-8">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="1"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+                          75,98€
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          75,98€
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <a href="#">
+                          <img
+                            src={ParquetSalon}
+                            className="w-20 h-16 rounded"
+                            alt="Thumbnail"
+                          />
+                        </a>
+                      </td>
+                      <td>
+                        <p className="mb-2 md:ml-4">Wooden floor</p>
+                        <form action="" method="POST">
+                          <button
+                            type="submit"
+                            className="text-gray-700 md:ml-4"
+                          >
+                            <small>(Remove item)</small>
+                          </button>
+                        </form>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex md:mt-8">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="15"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+                          24,98€
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          370,20€
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <a href="#">
+                          <img
+                            src={Peinture}
+                            className="w-20 h-16 rounded"
+                            alt="Thumbnail"
+                          />
+                        </a>
+                      </td>
+                      <td>
+                        <p className="mb-2 md:ml-4">White Paint</p>
+                        <form action="" method="POST">
+                          <button
+                            type="submit"
+                            className="text-gray-700 md:ml-4"
+                          >
+                            <small>(Remove item)</small>
+                          </button>
+                        </form>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex md:mt-8">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="1"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+                          51,90€
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          51,90€
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
             <hr className="pb-6 mt-6" />
             <div className="my-4 mt-6 -mx-2 lg:flex">
@@ -217,21 +360,21 @@ const ShopLivingRoom = () => {
                   Shipping and additionnal costs are calculated based on values
                   you have entered
                 </p>
-                <div className="flex justify-between border-b">
+                <div className="flex justify-between pt-4 border-b">
                   <div className="lg:px-4 lg:py-2 m-2 text-lg lg:text-xl font-bold text-center text-gray-800">
-                    Subtotal
+                  Subtotal
                   </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                  374,81 €
+                    1 484,82 €
                   </div>
                 </div>
               </div>
               <div className="flex justify-between pt-4 border-b">
                 <div className="lg:px-4 lg:py-2 m-2 text-lg lg:text-xl font-bold text-center text-gray-800">
-                  Tax
+                  Delivery
                 </div>
                 <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                74,962 €
+                  49€
                 </div>
               </div>
               <div className="flex justify-between pt-4 border-b">
@@ -239,7 +382,7 @@ const ShopLivingRoom = () => {
                   Total
                 </div>
                 <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                449,772 €
+                  1 533,82€
                 </div>
               </div>
               <a href="#">
@@ -264,8 +407,8 @@ const ShopLivingRoom = () => {
           </div>
         </div>
       </div>
-        </>
-    );
+    </>
+  );
 };
 
 export default ShopLivingRoom;
