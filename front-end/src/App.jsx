@@ -11,6 +11,7 @@ import ShopBedroom from "./pages/ShopBedroom";
 import ShopLivingRoom from "./pages/ShopLivingRoom";
 import ShopKitchen from "./pages/ShopKitchen";
 import Forum from "./pages/Forum";
+import Inspiration from "./pages/Inspiration";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Homepage />} />
+          <Route exact path ="/inspiration" element={<Inspiration />} />
           <Route exact path="/bathroom" element={<Bathroom />} />
           <Route exact path="/livingroom" element={<LivingRoom />} />
           <Route exact path="/kitchen" element={<Kitchen />} />
