@@ -361,7 +361,7 @@ const ShopBathroom = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td className="hidden pb-4 md:table-cell test">
+                      <td className="hidden pb-4 md:table-cell largeurCol">
                         <div className="flex items-center justify-between">
                           <a href="#">
                             <img
