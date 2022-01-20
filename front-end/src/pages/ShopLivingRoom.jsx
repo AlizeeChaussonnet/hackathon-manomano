@@ -10,6 +10,7 @@ import Navigation from "../Components/Navbar";
 import Return from "../Components/Return";
 import { Link } from "react-router-dom";
 import "../App.css";
+import { QuestionMarkCircleIcon } from "@heroicons/react/solid";
 
 const ShopLivingRoom = () => {
   return (

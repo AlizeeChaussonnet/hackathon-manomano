@@ -12,6 +12,7 @@ import Plumes from "../assets/image/plumes.png"
 import Table from "../assets/image/table.png"
 import Peinture from "../assets/image/peinture.png"
 import Parquet from "../assets/image/parquetbed.png"
+import { QuestionMarkCircleIcon } from "@heroicons/react/solid";
 
 const ShopBedroom = () => {
   return (
@@ -473,9 +474,6 @@ const ShopBedroom = () => {
                   </div>
                 </div>
                 <div className="flex justify-between pt-4 border-b">
-                  <div className="lg:px-4 lg:py-2 m-2 text-lg lg:text-xl font-bold text-center text-gray-800">
-                    Tax
-                  </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
                     1 152.48€
                   </div>
