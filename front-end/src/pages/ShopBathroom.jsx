@@ -10,10 +10,12 @@ import CarrelageMur from "../assets/image/carrelage2.png";
 import Lantern from "../assets/image/lanterne.png";
 import Carpet from "../assets/image/tapis.png";
 import Furniture from "../assets/image/meuble.png"
+import Navigation from "./Navbar";
 
 const ShopBathroom = () => {
   return (
     <>
+      <Navigation />
       <div className=" flex justify-center my-6">
         *
         <div>
