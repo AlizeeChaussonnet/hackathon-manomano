@@ -1,16 +1,20 @@
 import React from "react";
-import ShowerScreen from "../assets/image/showerscreen.png";
-import Vasquesdb from "../assets/image/vasquesdb.png";
-import Robinet from "../assets/image/robinet.png";
-import Mirror from "../assets/image/miroir.png";
-
+import MiroirSalon from "../assets/image/miroirsalon.png";
+import Fauteuil from "../assets/image/fauteuil.png";
+import Cheminee from "../assets/image/cheminee.png";
+import Couch from "../assets/image/canape.png";
+import Tablebasse from "../assets/image/tablebasse.png";
+import ParquetSalon from "../assets/image/parquetsalon.png";
+import Peinture from "../assets/image/peinture.png";
+import Navigation from "../Components/Navbar";
 const ShopLivingRoom = () => {
   return (
     <>
+    <Navigation />
       <div className=" flex justify-center my-6">
         <img
           className="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
-          src="https://i.pinimg.com/564x/0f/a5/d0/0fa5d0f5b41a4274bdc3a4ebf9962412.jpg"
+          src="https://i.pinimg.com/564x/98/7f/cc/987fcc2dc4c6092840b1a22f1d70de33.jpg"
         />
         <div className="flex flex-col w-full p-8 text-gray-800 bg-white shadow-lg pin-r pin-y md:w-4/5 lg:w-4/5">
           <div className="flex-1">
@@ -38,7 +42,7 @@ const ShopLivingRoom = () => {
                       <td className="hidden pb-4 md:table-cell">
                         <a href="#">
                           <img
-                            src={ShowerScreen}
+                            src={Couch}
                             className="w-20 h-16 rounded"
                             alt="Thumbnail"
                           />
@@ -46,7 +50,7 @@ const ShopLivingRoom = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Shower screen</p>
+                          <p className="mb-2 md:ml-4">Couch</p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -70,12 +74,12 @@ const ShopLivingRoom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          120.00€
+                          449.90€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          120.00€
+                          449.90€
                         </span>
                       </td>
                     </tr>
@@ -84,7 +88,7 @@ const ShopLivingRoom = () => {
                       <td className="hidden pb-4 md:table-cell">
                         <a href="#">
                           <img
-                            src={Robinet}
+                            src={Tablebasse}
                             className="w-20 h-16 rounded"
                             alt="Thumbnail"
                           />
@@ -92,7 +96,7 @@ const ShopLivingRoom = () => {
                       </td>
                       <td>
                         <a href="#">
-                          <p className="mb-2 md:ml-4">Tap</p>
+                          <p className="mb-2 md:ml-4">Low table</p>
                           <form action="" method="POST">
                             <button
                               type="submit"
@@ -116,12 +120,12 @@ const ShopLivingRoom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          71,82€
+                          139.90€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          71,82€
+                          139.90€
                         </span>
                       </td>
                     </tr>
@@ -129,14 +133,15 @@ const ShopLivingRoom = () => {
                       <td className="hidden pb-4 md:table-cell">
                         <a href="#">
                           <img
-                            src={Mirror}
+                            src={Fauteuil}
                             className="w-20 rounded h-16"
                             alt="Thumbnail"
                           />
                         </a>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">Mirror</p>
+
+                        <p className="mb-2 md:ml-4">Armchair</p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -159,12 +164,12 @@ const ShopLivingRoom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          113,99 €
+                          256.95€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          113,99 €
+                          256.95€
                         </span>
                       </td>
                     </tr>
@@ -172,14 +177,14 @@ const ShopLivingRoom = () => {
                       <td className="hidden pb-4 md:table-cell">
                         <a href="#">
                           <img
-                            src={Vasquesdb}
+                            src={Cheminee}
                             className="w-20 h-16 rounded"
                             alt="Thumbnail"
                           />
                         </a>
                       </td>
                       <td>
-                        <p className="mb-2 md:ml-4">White round basin</p>
+                        <p className="mb-2 md:ml-4">Fireplace</p>
                         <form action="" method="POST">
                           <button
                             type="submit"
@@ -202,12 +207,145 @@ const ShopLivingRoom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          69.00€
+                          139.99€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          69.00€
+                          139.99€
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <a href="#">
+                          <img
+                            src={MiroirSalon}
+                            className="w-20 h-16 rounded"
+                            alt="Thumbnail"
+                          />
+                        </a>
+                      </td>
+                      <td>
+
+                        <p className="mb-2 md:ml-4">Mirror</p>
+                        <form action="" method="POST">
+                          <button
+                            type="submit"
+                            className="text-gray-700 md:ml-4"
+                          >
+                            <small>(Remove item)</small>
+                          </button>
+                        </form>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex md:mt-8">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="1"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+
+                          75.98€
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          75.98€
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <a href="#">
+                          <img
+                            src={ParquetSalon}
+                            className="w-20 h-16 rounded"
+                            alt="Thumbnail"
+                          />
+                        </a>
+                      </td>
+                      <td>
+                        <p className="mb-2 md:ml-4">Wooden floor</p>
+                        <form action="" method="POST">
+                          <button
+                            type="submit"
+                            className="text-gray-700 md:ml-4"
+                          >
+                            <small>(Remove item)</small>
+                          </button>
+                        </form>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex md:mt-8">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="15"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+                          24.98€
+
+
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          370.20€
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="hidden pb-4 md:table-cell">
+                        <a href="#">
+                          <img
+                            src={Peinture}
+                            className="w-20 h-16 rounded"
+                            alt="Thumbnail"
+                          />
+                        </a>
+                      </td>
+                      <td>
+                        <p className="mb-2 md:ml-4">White Paint</p>
+                        <form action="" method="POST">
+                          <button
+                            type="submit"
+                            className="text-gray-700 md:ml-4"
+                          >
+                            <small>(Remove item)</small>
+                          </button>
+                        </form>
+                      </td>
+                      <td className="justify-center md:justify-end md:flex md:mt-8">
+                        <div className="w-20 h-10">
+                          <div className="relative flex flex-row w-full h-8">
+                            <input
+                              type="number"
+                              value="1"
+                              className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td className="hidden text-right md:table-cell">
+                        <span className="text-sm lg:text-base font-medium">
+                          51.90€
+                        </span>
+                      </td>
+                      <td className="text-right">
+                        <span className="text-sm lg:text-base font-medium">
+                          51.90€
                         </span>
                       </td>
                     </tr>
@@ -228,21 +366,21 @@ const ShopLivingRoom = () => {
                   Shipping and additionnal costs are calculated based on values
                   you have entered
                 </p>
-                <div className="flex justify-between border-b">
+                <div className="flex justify-between pt-4 border-b">
                   <div className="lg:px-4 lg:py-2 m-2 text-lg lg:text-xl font-bold text-center text-gray-800">
-                    Subtotal
+                  Subtotal
                   </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                    374,81 €
+                    1 484.82 €
                   </div>
                 </div>
               </div>
               <div className="flex justify-between pt-4 border-b">
                 <div className="lg:px-4 lg:py-2 m-2 text-lg lg:text-xl font-bold text-center text-gray-800">
-                  Tax
+                  Delivery
                 </div>
                 <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                  74,962 €
+                  49€
                 </div>
               </div>
               <div className="flex justify-between pt-4 border-b">
@@ -250,7 +388,7 @@ const ShopLivingRoom = () => {
                   Total
                 </div>
                 <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                  449,772 €
+                  1 533.82€
                 </div>
               </div>
               <a href="#">
