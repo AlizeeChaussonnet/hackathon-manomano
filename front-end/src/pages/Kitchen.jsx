@@ -6,25 +6,25 @@ const Kitchen = () => {
         <div>
           <section className="py-48 bg-white flex flex-col justify-center">
             <div className="grid grid-cols-2 gap-10 max-w-6xl mx-auto">
-              <div className="-mt-20 flex justify-end">
+              <div className="-mt-20 flex justify-end overflow-hidden" id="zoomIn">
                 <img
                   className="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
                   src="https://i.pinimg.com/750x/6d/b0/28/6db02804b04b4a4e124d98e520f039cd.jpg"
                 />
               </div>
-              <div className="flex justify-start">
+              <div className="flex justify-start overflow-hidden" id="zoomIn">
                 <img
-                  className="rounded-lg object-cover overflow-hidden"
+                  className="rounded-lg object-cover overflow-hidden "
                   src="https://i.pinimg.com/750x/3d/5a/ef/3d5aefdd218c28629ad1cbb3279097f5.jpg"
                 />
               </div>
-              <div className="-mt-64 flex justify-start">
+              <div className="-mt-64 flex justify-start overflow-hidden" id="zoomIn">
                 <img
                   className="rounded-lg object-cover overflow-hidden"
                   src="https://i.pinimg.com/564x/25/1a/2e/251a2e85ec9aebcef4e3ad5effd6766f.jpg"
                 />
               </div>
-              <div className="flex justify-start -mr-28 ml-28">
+              <div className="flex justify-start -mr-28 ml-28 overflow-hidden" id="zoomIn">
                 <img
                   className="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
                   src="https://i.pinimg.com/564x/d8/be/df/d8bedfcbf6c4d5e1229ed365c3d414aa.jpg"
