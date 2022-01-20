@@ -7,12 +7,14 @@ import Couch from "../assets/image/canape.png";
 import Tablebasse from "../assets/image/tablebasse.png";
 import ParquetSalon from "../assets/image/parquetsalon.png";
 import Peinture from "../assets/image/peinture.png";
+import Navigation from "./Navbar";
 const ShopLivingRoom = () => {
   return (
     <>
+    <Navigation />
       <div className=" flex justify-center my-6">
         <img
-          classNameName="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
+          className="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden"
           src="https://i.pinimg.com/564x/98/7f/cc/987fcc2dc4c6092840b1a22f1d70de33.jpg"
         />
         <div className="flex flex-col w-full p-8 text-gray-800 bg-white shadow-lg pin-r pin-y md:w-4/5 lg:w-4/5">
@@ -73,12 +75,12 @@ const ShopLivingRoom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          449,90€
+                          449.90€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          449,90€
+                          449.90€
                         </span>
                       </td>
                     </tr>
@@ -119,12 +121,12 @@ const ShopLivingRoom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          139,90€
+                          139.90€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          139,90€
+                          139.90€
                         </span>
                       </td>
                     </tr>
@@ -162,12 +164,12 @@ const ShopLivingRoom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          256,95€
+                          256.95€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          256,95€
+                          256.95€
                         </span>
                       </td>
                     </tr>
@@ -205,12 +207,12 @@ const ShopLivingRoom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          139,99€
+                          139.99€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          139,99€
+                          139.99€
                         </span>
                       </td>
                     </tr>
@@ -248,12 +250,12 @@ const ShopLivingRoom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          75,98€
+                          75.98€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          75,98€
+                          75.98€
                         </span>
                       </td>
                     </tr>
@@ -291,12 +293,12 @@ const ShopLivingRoom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          24,98€
+                          24.98€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          370,20€
+                          370.20€
                         </span>
                       </td>
                     </tr>
@@ -334,12 +336,12 @@ const ShopLivingRoom = () => {
                       </td>
                       <td className="hidden text-right md:table-cell">
                         <span className="text-sm lg:text-base font-medium">
-                          51,90€
+                          51.90€
                         </span>
                       </td>
                       <td className="text-right">
                         <span className="text-sm lg:text-base font-medium">
-                          51,90€
+                          51.90€
                         </span>
                       </td>
                     </tr>
@@ -365,7 +367,7 @@ const ShopLivingRoom = () => {
                   Subtotal
                   </div>
                   <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                    1 484,82 €
+                    1 484.82 €
                   </div>
                 </div>
               </div>
@@ -382,7 +384,7 @@ const ShopLivingRoom = () => {
                   Total
                 </div>
                 <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                  1 533,82€
+                  1 533.82€
                 </div>
               </div>
               <a href="#">
