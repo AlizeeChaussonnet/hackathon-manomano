@@ -532,33 +532,30 @@ const ShopBedroom = () => {
                   </p>
                   <textarea className="w-full h-24 p-2 bg-gray-100 rounded"></textarea>
                 </div>
-                <div className="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                  1 182.48€
-                  <div>
-                    <div className="section-shop">
-                      <h1 className="ml-2 font-bold text-white uppercase">
-                        Installation by a professional
-                      </h1>
-                    </div>
-                    <section className="container mx-auto ml-6 my-8">
-                      <label
-                        for="checkbox"
-                        className="relative flex-inline items-center isolate p-4 rounded-2xl"
-                      >
-                        <input
-                          id="checkbox"
-                          type="checkbox"
-                          className="relative peer z-20 text-purple-600 rounded-md focus:ring-0 mr-1"
-                        />
-                        <span className="relative z-20 w-full">
-                          {" "}
-                          I would like to entrust the installation to a
-                          professional (50€)
-                        </span>
-                        <div className="absolute inset-0 bg-white peer-checked:bg-teal-50 peer-checked:border-teal-300 z-10 border rounded-2xl"></div>
-                      </label>
-                    </section>
+                <div>
+                  <div className="section-shop">
+                    <h1 className="ml-2 font-bold text-white uppercase">
+                      Installation by a professional
+                    </h1>
                   </div>
+                  <section className="container mx-auto ml-6 my-8">
+                    <label
+                      for="checkbox"
+                      className="relative flex-inline items-center isolate p-4 rounded-2xl"
+                    >
+                      <input
+                        id="checkbox"
+                        type="checkbox"
+                        className="relative peer z-20 text-purple-600 rounded-md focus:ring-0 mr-1"
+                      />
+                      <span className="relative z-20 w-full">
+                        {" "}
+                        I would like to entrust the installation to a
+                        professional (50€)
+                      </span>
+                      <div className="absolute inset-0 bg-white peer-checked:bg-teal-50 peer-checked:border-teal-300 z-10 border rounded-2xl"></div>
+                    </label>
+                  </section>
                 </div>
               </div>
             </div>
