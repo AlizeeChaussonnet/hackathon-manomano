@@ -10,10 +10,6 @@ import Navigation from "../Components/Navbar";
 import Return from "../Components/Return";
 import { Link } from "react-router-dom";
 import "../App.css";
-const ShopLivingRoom = () => {
-  
-
-import "../App.css";
 
 const ShopLivingRoom = () => {
   return (

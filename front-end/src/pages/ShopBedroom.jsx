@@ -552,7 +552,8 @@ const ShopBedroom = () => {
           </div>
         </div>
       </div>
-    </>
+      </div>
+</>
   );
 };
 
