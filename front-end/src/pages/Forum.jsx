@@ -122,14 +122,14 @@ export default function Forum() {
                         </div>
                         <div className="ml-3">
                           <p className="text-gray-900 whitespace-no-wrap ">
-                            How to choose the right size for my screen shower
+                            How to choose the right size for my shower column
                           </p>
                         </div>
                       </div>
                     </td>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <p className="text-gray-900 whitespace-no-wrap bg-gray-300 rounded-full px-4">
-                        Shower screen
+                        Shower column
                       </p>
                     </td>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
